@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-healing.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-healing.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Healing" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_HEALING">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>I will use treatment to help the sick according to my ability and judgment…[never] will I administer a poison to anybody when asked to do so, nor will I suggest such a course… Into whatsoever houses I enter, I will enter to help the sick… Now if I carry out this oath, and break it not, may I gain forever reputation among all men for my life and for my art; but if I break it and forswear myself, may the opposite befall me.</em></p>
+            <p style="text-align:right">—The Hippocratic Oath</p>
+            <p>The Oath of Healing holds a paladin to a path of remedy and purity, sworn to rid the world of disease and other ills. In joining martial technique with medicine and remedy, these paladins are battlefield doctors and miracle workers alike. Whether called upon suddenly to quell an epidemic or in perpetual service in the endless war against disease, they are often as grim in manner as the inevitable death they choose to fight against. Called plague knights and hospitaliers, such paladins can be counted on to heal ills and smite impurity, healing the world one patient—or disease—at a time.</p>
+            <h5>TENETS OF HEALING</h5>
+            <p>Often sworn as the paladin stands before a cleansing fire, it is traditional for one to write the tenets of the Oath of Healing upon parchment and then hold it out to burn in the flame.</p>
+            <p class="indent"><strong><em>Treat the Afflicted.</em></strong> Disease is no respector of persons, and in your role as healer, neither are you. Make your remedies and ministrations free to all who are in need.</p>
+            <p class="indent"><strong><em>Cleanse Impurity.</em></strong> You possess understanding of vectors and illness, so it is your charge to stop diseases at the source when you find it.</p>
+            <p class="indent"><strong><em>Mourn in Tragedy.</em></strong> When a patient's war on death is finally at an end, join in sorrow with the others that are left behind.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_AURA_OF_HEALING" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_A_POUND_OF_CURE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_MIRACLE_WORKER" />
+            <h5>Healer's Arts</h5>
+            <p>Medicine is a tradition as old as mortals, and the variety of manners and practices of the healing arts is innumerable. Consider what kind of healer your hospitalier is. Does your paladin focus on faith-healing, using divine magic to formulate a panacea? Do they rely on medical science, wielding serious research or education? The following table has a few ideas, and feel free to come up with your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Healer's Art</td></tr>
+                </thead>
+                <tr><td>1</td><td>Your traditional herbal medicine is looked down upon by some of your contemporaries, but you find it more reliable than "modern" leeching.</td></tr>
+                <tr><td>2</td><td>You were educated in a cosmopolitan medical college and find yourself constantly teaching those around you about modern discoveries in health.</td></tr>
+                <tr><td>3</td><td>Lacking education and with zeal as your only tool, your panaceas and treatments are pure miracles.</td></tr>
+                <tr><td>4</td><td>You hold that comfort and emotional healing are as important as any surgery. Medicine is your work, but bedside manner is our passion.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>The Oath of Healing holds a paladin to a path of remedy and purity, sworn to rid the world of disease and other ills.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_AURA_OF_HEALING" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_A_POUND_OF_CURE" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_MIRACLE_WORKER" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Healing Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>false life, sleep</td></tr>
+                <tr><td>5th</td><td>lesser restoration, protection from poison</td></tr>
+                <tr><td>9th</td><td>feign death, revivify</td></tr>
+                <tr><td>13th</td><td>aura of life, fire shield</td></tr>
+                <tr><td>17th</td><td>greater restoration, mass cure wounds</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_POISON" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FEIGN_DEATH" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Panacea.</em></strong> Over the course of 10 minutes and using an herbalism kit, you can use your Channel Divinity to synthesize one bottle of a miraculous healing draught called a panacea. A creature that drinks the panacea as an action regains a number of hit points equal to your paladin level + your Charisma modifier, and it is healed of one effect of its choice causing it to be blinded, deafened, diseased, paralyzed, or poisoned. Any panacea you have created loses its potency when you make another one or when you finish a long rest.</p>
+            <p class="indent"><strong><em>Sterilize.</em></strong> As a reaction when a creature other than you that you can see within 60 feet of you is damaged, you can use your Channel Divinity to purify the wound with radiant fire. The damage is reduced by 1d10 + your Charisma modifier (minimum 1), and it has advantage on saving throws against disease and poison until the start of its next turn. Also, each hostile creature within 5 feet of it must make a Dexterity saving throw, taking radiant damage equal to the damage prevented, or half as much on a successful save.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD_PANACEA" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD_STERILIZE" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Panacea" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD_PANACEA">
+        <description>
+            <p>Over the course of 10 minutes and using an herbalism kit, you can use your Channel Divinity to synthesize one bottle of a miraculous healing draught called a panacea. A creature that drinks the panacea as an action regains a number of hit points equal to your paladin level + your Charisma modifier, and it is healed of one effect of its choice causing it to be blinded, deafened, diseased, paralyzed, or poisoned. Any panacea you have created loses its potency when you make another one or when you finish a long rest.</p>
+        </description>
+        <sheet alt="Panacea">
+            <description usage="Channel Divinity">Over the course of 10 minutes and using an herbalism kit, you can use your Channel Divinity to synthesize one bottle of a miraculous healing draught called a panacea. A creature that drinks the panacea as an action regains {{panacea:hp}} hit points, and it is healed of one effect of its choice causing it to be blinded, deafened, diseased, paralyzed, or poisoned. Any panacea you have created loses its potency when you make another one or when you finish a long rest.</description>
+        </sheet>
+        <rules>
+            <stat name="panacea:hp" value="level:paladin" />
+            <stat name="panacea:hp" value="charisma:modifier" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Sterilize" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_CD_STERILIZE">
+        <description>
+            <p>As a reaction when a creature other than you that you can see within 60 feet of you is damaged, you can use your Channel Divinity to purify the wound with radiant fire. The damage is reduced by 1d10 + your Charisma modifier (minimum 1), and it has advantage on saving throws against disease and poison until the start of its next turn. Also, each hostile creature within 5 feet of it must make a Dexterity saving throw, taking radiant damage equal to the damage prevented, or half as much on a successful save.</p>
+        </description>
+        <sheet alt="Sterilize">
+            <description usage="Channel Divinity" action="Reaction">As a reaction when a creature other than you that you can see within 60 feet of you is damaged, you can use your Channel Divinity to purify the wound with radiant fire. The damage is reduced by 1d10 + {{charisma:modifier}} (minimum 1), and it has advantage on saving throws against disease and poison until the start of its next turn. Also, each hostile creature within 5 feet of it must make a Dexterity saving throw, taking radiant damage equal to the damage prevented, or half as much on a successful save.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Healing" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_AURA_OF_HEALING">
+        <description>
+            <p>Beginning at 7th level, you overflow with purifying energy. You and friendly creatures within 10 feet of you gain resistance to poison damage and can't be poisoned or contract disease while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">You and friendly creatures within 10 feet of you gain resistance to poison damage and can't be poisoned or contract disease while you are conscious.</description>
+            <description level="18">You and friendly creatures within 30 feet of you gain resistance to poison damage and can't be poisoned or contract disease while you are conscious.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+        </rules>
+    </element>
+
+    <element name="A Pound of Cure" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_A_POUND_OF_CURE">
+        <description>
+            <p>At 15th level, your treatments improve. When a creature regains hit points through a paladin spell you cast or one of your paladin class features, it also gains temporary hit points equal to the hit points regained, up to a maximum equal to your paladin level. These temporary hit points last until the start of your next turn.</p>
+            <p class="indent">Also, when you cast a spell that would restore a creature to life (but not undeath), you can use a material component valued at half the normal cost.</p>
+        </description>
+        <sheet>
+            <description>When a creature regains hit points through a paladin spell you cast or one of your paladin class features, it also gains temporary hit points equal to the hit points regained, up to a maximum of {{level:paladin}}. These temporary hit points last until the start of your next turn.
+            Also, when you cast a spell that would restore a creature to life (but not undeath), you can use a material component valued at half the normal cost.</description>
+        </sheet>
+    </element>
+
+    <element name="Miracle Worker" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_HEALING_MIRACLE_WORKER">
+        <description>
+            <p>At 20th level, you can use an action to physically manifest your will for purity, transforming into a thing of searing radiance. All diseases and poisons within 30 feet of you are nullified, and you gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>At the end of each of your turns, you and friendly creatures within 30 feet of you regain 10 hit points.</li>
+                <li>You are immune to poison damage and have resistance to nonmagical bludgeoning, piercing, and slashing damage.</li>
+                <li>Using your Sterilize feature doesn't expend a use of your Channel Divinity.</li>
+            </ul>
+            <p class="indent">After taking this action, you must finish a long rest before you can do so again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You can use an action to physically manifest your will for purity, transforming into a thing of searing radiance. All diseases and poisons within 30 feet of you are nullified, and you gain the following benefits for 1 minute: At the end of each of your turns, you and friendly creatures within 30 feet of you regain 10 hit points. You are immune to poison damage and have resistance to nonmagical bludgeoning, piercing, and slashing damage. Using your Sterilize feature doesn't expend a use of your Channel Divinity.</description>
+        </sheet>
+    </element>
+    
+</elements>

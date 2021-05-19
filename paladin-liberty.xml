@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-liberty.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-liberty.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Liberty" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_LIBERTY">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>'I'm here to fight for truth and justice and the American way.' 'You're gonna end up fighting every elected official in this country!'</em></p>
+            <p style="text-align:right">—Superman and Lois Lane, <em>Superman (1978)</em></p>
+            <p>The Oath of Liberty is a noble vow by a paladin to uphold and defend democracy as the truest and most just form of government. For these warriors, tyranny and totalitarianism are the greatest enemies and enfranchisement and referendum their highest ideals. Such paladins—called eagle knights and freedom fighters—are the first to raise a shield in defense of the rights of common people, as well as the foremost to lift a weapon to smite the oppressor.</p>
+            <h5>TENETS OF LIBERTY</h5>
+            <p>Traditionally, the tenets of the Oath of Liberty are determined by the vote of a summit of its bearers, and the following themes are commonly agreed upon.</p>
+            <p class="indent"><strong><em>Of the People.</em></strong> A society's people have the solemn right to rule themselves. Therefore, leaders and representatives must be of the populace.</p>
+            <p class="indent"><strong><em>By the People.</em></strong> The power of governance should come from the people. Decisions are made by their vote and voice.</p>
+            <p class="indent"><strong><em>For the People.</em></strong> Government is meant to serve those it is empowered by. An oppressive rule is no rightful rule at all.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_AURA_OF_LIBERTY" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_UNIVERSAL_SUFFRAGE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_BEACON_OF_FREEDOM" />
+            <h5>EMBLEMS OF LIBERTY</h5>
+            <p>Freedom fighters often unify themselves with each other and with others who rally for the cause of liberty by using emblems to represent their democratic ideals. What represents your yearning for freedom? It could be a creature, a tool, or even a shape. Consider some of the following suggestions, or create an emblem of your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Emblem of Liberty</td></tr>
+                </thead>
+                <tr><td>1</td><td>The sword represents the hard-fought battles and the good blood shed in the name of obtaining liberty.</td></tr>
+                <tr><td>2</td><td>The eagle and its flight represent the freedom you and your cohorts seek to obtain.</td></tr>
+                <tr><td>3</td><td>The hoe is a symbol of the common people, the laborers, who form the true heart of the people.</td></tr>
+                <tr><td>4</td><td>The unicorn is a symbol of purity, emblematic of the virtuous cause of democracy.</td></tr>
+                <tr><td>5</td><td>The circle conveys unity, as its unbroken shape represents the interconnectedness of all people.</td></tr>
+                <tr><td>6</td><td>The shield is a symbol of protection without oppression, and of government for the people.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>The Oath of Liberty is a noble vow by a paladin to uphold and defend democracy as the truest and most just form of government.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_AURA_OF_LIBERTY" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_UNIVERSAL_SUFFRAGE" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_BEACON_OF_FREEDOM" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Anarchy Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>comprehend languages, sanctuary</td></tr>
+                <tr><td>5th</td><td>calm emotions, zone of truth</td></tr>
+                <tr><td>9th</td><td>haste, sending</td></tr>
+                <tr><td>13th</td><td>freedom of movement, stoneskin</td></tr>
+                <tr><td>17th</td><td>hallow, telepathic bond</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SENDING" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Power to the People.</em></strong> You can use your Channel Divinity as a bonus action to inspire others with hope to rise against their oppressors. Any friendly creature other than yourself that is within 30 feet of you and can hear you can use its reaction to stand if it is prone or to attempt to escape a grapple if it is grappled.</p>
+            <p class="indent"><strong><em>Voice of the People.</em></strong> As an action, you use your Channel Divinity to call on the strengths and rights of the people surrounding you. Any friendly creature within 30 feet of you that can hear you and can speak can use its reaction to join your cry. Any hostile creature within 30 feet of a creature that participates in the cry must make a Charisma saving throw. On a failed save, it is charmed by you and each creature that joined the cry until the end of your next turn as it is overcome by the virtue of your cause.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD_POWER_PEOPLE" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD_VOICE_PEOPLE" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Power to the People" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD_POWER_PEOPLE">
+        <description>
+            <p>You can use your Channel Divinity as a bonus action to inspire others with hope to rise against their oppressors. Any friendly creature other than yourself that is within 30 feet of you and can hear you can use its reaction to stand if it is prone or to attempt to escape a grapple if it is grappled.</p>
+        </description>
+        <sheet alt="Power to the People" action="Bonus Action">
+            <description usage="Channel Divinity">You can use your Channel Divinity as a bonus action to inspire others with hope to rise against their oppressors. Any friendly creature other than yourself that is within 30 feet of you and can hear you can use its reaction to stand if it is prone or to attempt to escape a grapple if it is grappled.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Voice of the People" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_CD_VOICE_PEOPLE">
+        <description>
+            <p>As an action, you use your Channel Divinity to call on the strengths and rights of the people surrounding you. Any friendly creature within 30 feet of you that can hear you and can speak can use its reaction to join your cry. Any hostile creature within 30 feet of a creature that participates in the cry must make a Charisma saving throw. On a failed save, it is charmed by you and each creature that joined the cry until the end of your next turn as it is overcome by the virtue of your cause.</p>
+        </description>
+        <sheet alt="Voice of the People">
+            <description usage="Channel Divinity" action="Action">As an action, you use your Channel Divinity to call on the strengths and rights of the people surrounding you. Any friendly creature within 30 feet of you that can hear you and can speak can use its reaction to join your cry. Any hostile creature within 30 feet of a creature that participates in the cry must make a Charisma saving throw. On a failed save, it is charmed by you and each creature that joined the cry until the end of your next turn as it is overcome by the virtue of your cause.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Liberty" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_AURA_OF_LIBERTY">
+        <description>
+            <p>Starting at 7th level, no tyrant or oppressor can make you kneel. You and friendly creatures within 10 feet of you can't be forced prone by hostile creatures while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">You and friendly creatures within 10 feet of you can't be forced prone by hostile creatures while you are conscious.</description>
+            <description level="18">You and friendly creatures within 30 feet of you can't be forced prone by hostile creatures while you are conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Universal Suffrage" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_UNIVERSAL_SUFFRAGE">
+        <description>
+            <p>Beginning at 15th level, your conviction that all have an equal right to life and liberty pulls down those who would claim unjust advantage. You can attempt to grapple or shove a creature regardless of its size.</p>
+        </description>
+        <sheet>
+            <description>You can attempt to grapple or shove a creature regardless of its size.</description>
+        </sheet>
+    </element>
+
+    <element name="Beacon of Freedom" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_LIBERTY_BEACON_OF_FREEDOM">
+        <description>
+            <p>At 20th level, you become a light of liberty to all nations and peoples. As an action, you can undergo a transformation, gaining stone-like skin and a burning radiance. You gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>Bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.</li>
+                <li>The ranges of your Aura of Protection, Aura of Courage, and Aura of Liberty features increase to 60 feet.</li>
+                <li>Attacks made by you and friendly creatures within 60 feet of you inflict extra fire damage equal to the number of friendly creatures within 60 feet of you, up to a maximum of 10 fire damage.</li>
+                <li>You gain resistance against bludgeoning, piercing, and slashing damage and immunity to poison damage and the poisoned condition.</li>
+            </ul>
+            <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">As an action, you can undergo a transformation, gaining stone-like skin and a burning radiance. You gain the following benefits for 1 minute: Bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that. The ranges of your Aura of Protection, Aura of Courage, and Aura of Liberty features increase to 60 feet. Attacks made by you and friendly creatures within 60 feet of you inflict extra fire damage equal to the number of friendly creatures within 60 feet of you, up to a maximum of 10 fire damage. You gain resistance against bludgeoning, piercing, and slashing damage and immunity to poison damage and the poisoned condition.</description>
+        </sheet>
+    </element>
+    
+</elements>

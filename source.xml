@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/source.xml" />
+        </update>
+    </info>
+    
+    <element name="A Plethora of Paladins" type="Source" source="A Plethora of Paladins" id="ID_BUNNYGM_SOURCE_A_PLETHORA_OF_PALADINS">
+        <description>
+            <![CDATA[<p>The year 2019 marks 44 years of paladins in Dungeons & Dragons, if we start our count from the 1975 publication of the Greyhawk supplement which introduced the paladin as a subclass of the fighting man. That makes the paladin as old as some spells that were introduced in Greyhawk, and also as old as the game's actual combat mechanics, which were also published in Greyhawk! Myself, I started playing with the Fifth Edition of the game, so I've been around only briefly. But in that time, the paladin has been my favorite class from the very start.</p>
+            <p>Some of you may already be familiar with this compendium, or at least the idea of this compendium. A year, or maybe a couple years, ago I released a PDF under the same name: "A Plethora of Paladins", naming the compendium after a Dragon magazine article that presented alternative versions of the paladin class for AD&D. That was followed by updated versions under similar names: "A Plethora of Paladins Plus One," later "A Plethora of Paladins Plus Some" and eventually "Plus Some Plus." If I was anything as a homebrewer then, I suppose it was prolific.</p>
+            <p>I guess with this being a compendium, I still am prolific. But as I learned more about homebrewing and Fifth Edition design, I came to want to revamp, to improve, upon the homebrews I'd done previously. And then, I also started making new stuff, too.</p>
+            <p>Long story short, you hold in your digital hands thirteen homebrew Sacred Oaths that run a wide, wide gamut of themes, tropes, and ideals. All the Sacred Oaths from the old compendium are back, and better than ever, and I think y'all will really like the new ones, too.</p>
+            <p>Now, why a compendium? Why not just hand you a folder of PDFs, which let's be honest is easier for access and organization anyway? Well... I don't really have a good reason, to be honest. I hope that it's fun this way. Sometimes having a gigantic, unwieldy document is oddly thrilling. Hopefully to make it more worth your time, I've included new rollable traits tables or similar ideas with some of the Sacred Oaths, as well as a new chapter of homebrew spells.</p>
+            <p>I'd like to give a big thanks to the many members of the Dungeons & Dragons homebrew community who've contributed to making this compendium what it is, including the Unearthed Arcana subreddit. The Discord of Many Things server has been instrumental in providing design feedback, balance advice, and generally just making everything 20% cooler. Shoutouts to ACOG_Muffin, Alice the Alhoon, Ashley, AtinVexien, CaelReader, Caim, Genuine Believer, Gray, Haydizzle, ItsMaybelline, Jaek, Janawhamme, Jay, Marceline, NotTheSmoooze, Novronian, Sgt Briar, SwordMeow, wick, Wufflykins, and Yorviing. Thanks to all of y'all!</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">APOP</set>
+            <set name="url">https://drive.google.com/file/d/1gxOE5X_KyUtTWQ6YLp_fadFMccmESYbq/view</set>
+            <set name="image">https://i.pinimg.com/originals/fa/43/33/fa4333e315f2e96fea2e337478ad9157.png</set>
+            <set name="author" abbreviation="BunnyGM" url="https://bunnybrew.blogspot.com/">Bunnygeon Master</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">true</set>
+            <set name="homebrew">false</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+</elements>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-tradition.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-tradition.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Tradition" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_TRADITION">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>History is a people's memory, and without a memory, man is demoted to the lower animals.</em></p>
+            <p style="text-align:right">—Malcolm X</p>
+            <p>Paladins that swear the Oath of Tradition recognize the value of history, lore, and the past. Called yoreguards and bonekeepers, these paladins are protectors of traditional institutions and guardians of the restful dead, as well as keepers of those stories that would otherwise be forgotten, be it the grand epic of a dead empire or the joyful memories of an elder recollecting the first harvest festival of a village no longer so young. Found in service to gods of home and civilization, such as Estanna or Erathis, under the authority of grand archives and keepers of history, or in temples and shrines dedicated to the remembrance of deceased ancestry, these paladins are the warriors who stand against those forces which threaten to destroy what came before.</p>
+            <h5>TENETS OF TRADITION</h5>
+            <p>The tenets of Tradition have been handed down from effectively antiquity, no matter the place or time of its bearer.</p>
+            <p class="indent"><strong><em>Heritage.</em></strong> Carry on the old traditions and yesterday's way of life, connecting the past to the present and enriching both.</p>
+            <p class="indent"><strong><em>Remembrance.</em></strong> Write the stories of people, cultures, and places upon both crude matter and upon your mind. By remembering these tales, that which is gone yet lives.</p>
+            <p class="indent"><strong><em>Joy.</em></strong> Celebrate successful preservation, revel in surviving legends, and savor traditions still observed. When heritage is respected, all become part of something more.</p>
+            <p class="indent"><strong><em>Sorrow.</em></strong> When history is lost, when stories are forgotten, when cultures die, and when traditions are trampled, weep. Mourn ancient beauty and horror alike, for it mattered.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_AURA_OF_BONES" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_ANCESTRAL_MEMORY" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_BRIDGE_TO_THE_PAST" />
+            <h5>ANCESTRAL RELICS</h5>
+            <p>As part of their quest to remember and honor the past, many yoreguards keep and preserve ancient relics of their people or heritage. Your paladin might keep such a trinket. The following table includes a few ideas for what form such ancestral relics might take, which you can use as is or as inspiration to create your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d8</td><td>Ancestral Relic</td></tr>
+                </thead>
+                <tr><td>1</td><td>A weathered, cracked, leatherbound journal carrying the life story of your ancestor.</td></tr>
+                <tr><td>2</td><td>A ragged owlbear doll with sewn-in eyes that has been passed down for generations.</td></tr>
+                <tr><td>3</td><td>A tarnished brooch from an influential ancestor, obtained back when your family lived in affluence.</td></tr>
+                <tr><td>4</td><td>A scroll with scrawling, illegible arcane script, kept as an heirloom even though its purpose is unclear.</td></tr>
+                <tr><td>5</td><td>A copper coin—the first money your grandparent ever earned.</td></tr>
+                <tr><td>6</td><td>A single chain link, handed down from a forebear who escaped oppression and destitution.</td></tr>
+                <tr><td>7</td><td>A gleaming dagger, crafted with advanced techniques now forgotten by modern smiths.</td></tr>
+                <tr><td>8</td><td>A pouch with the sacred ashes of the ancestor who founded your family lineage.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Paladins that swear the Oath of Tradition recognize the value of history, lore, and the past. Called yoreguards and bonekeepers, these paladins are protectors of traditional institutions and guardians of the restful dead, as well as keepers of those stories that would otherwise be forgotten, be it the grand epic of a dead empire or the joyful memories of an elder recollecting the first harvest festival of a village no longer so young. </description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_AURA_OF_BONES" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_ANCESTRAL_MEMORY" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_BRIDGE_TO_THE_PAST" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Tradition Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>ceremony, unseen servant</td></tr>
+                <tr><td>5th</td><td>gentle repose, silence</td></tr>
+                <tr><td>9th</td><td>revivify, speak with dead</td></tr>
+                <tr><td>13th</td><td>divination, guardian of faith</td></tr>
+                <tr><td>17th</td><td>legend lore, marrow of life</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CEREMONY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_UNSEEN_SERVANT" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GENTLE_REPOSE" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_MARROW_LIFE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Ancestral Aid.</em></strong> Using your Channel Divinity as a bonus action, you inspire spirits of the dead to come to your aid, which manifest as a number of skeletal beings equal to your Charisma modifier (minimum 1) that crawl out of the earth in unoccupied spaces of your choice within 60 feet of you that you can see (minimum of 1 being). A being's AC is 10 + your Charisma modifier (minimum 0), and it has hit points equal to your paladin level. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). As part of the bonus action used to use this Channel Divinity option and as a bonus action on each of your turns, you can command each skeletal being to walk up to 30 feet in any direction of your choice and take the Dash, Disengage, Dodge, Help, or Use an Object action (your choice). The beings can't make attacks, use magic items, or act in any other way.</p>
+            <p class="indent">Each skeletal being remains for 10 minutes. A being vanishes earlier if it is reduced to 0 hit points, if you are unconscious, or if you dismiss it using another bonus action.</p>
+            <p class="indent"><strong><em>Turn Machination.</em></strong> As an action, you use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD_ANCESTRAL_AID" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD_TURN_MACHINATION" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Ancestral Aid" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD_ANCESTRAL_AID">
+        <description>
+            <p>Using your Channel Divinity as a bonus action, you inspire spirits of the dead to come to your aid, which manifest as a number of skeletal beings equal to your Charisma modifier (minimum 1) that crawl out of the earth in unoccupied spaces of your choice within 60 feet of you that you can see (minimum of 1 being). A being's AC is 10 + your Charisma modifier (minimum 0), and it has hit points equal to your paladin level. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). As part of the bonus action used to use this Channel Divinity option and as a bonus action on each of your turns, you can command each skeletal being to walk up to 30 feet in any direction of your choice and take the Dash, Disengage, Dodge, Help, or Use an Object action (your choice). The beings can't make attacks, use magic items, or act in any other way.</p>
+            <p class="indent">Each skeletal being remains for 10 minutes. A being vanishes earlier if it is reduced to 0 hit points, if you are unconscious, or if you dismiss it using another bonus action.</p>
+        </description>
+        <sheet alt="Ancestral Aid">
+            <description usage="Channel Divinity" action="Bonus Action">Using your Channel Divinity as a bonus action, you inspire spirits of the dead to come to your aid, which manifest as {{charisma:modifier}} skeletal beings (minimum 1) that crawl out of the earth in unoccupied spaces of your choice within 60 feet of you that you can see (minimum of 1 being). A being's AC is {{boney:ac}} (minimum 10), and it has {{level:paladin}} hit points. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). As part of the bonus action used to use this Channel Divinity option and as a bonus action on each of your turns, you can command each skeletal being to walk up to 30 feet in any direction of your choice and take the Dash, Disengage, Dodge, Help, or Use an Object action (your choice). The beings can't make attacks, use magic items, or act in any other way.
+            Each skeletal being remains for 10 minutes. A being vanishes earlier if it is reduced to 0 hit points, if you are unconscious, or if you dismiss it using another bonus action.</description>
+        </sheet>
+        <rules>
+            <stat name="boney:ac" value="10" />
+            <stat name="boney:ac" value="charisma:modifier" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Turn Machination" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_CD_TURN_MACHINATION">
+        <description>
+            <p>As an action, you use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet alt="Turn Machination">
+            <description usage="Channel Divinity" action="Action">As an action, you use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+            A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Bones" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_AURA_OF_BONES">
+        <description>
+            <p>Starting at 7th level, while you aren't incapacitated you can emanate a spectral field of sacred bones that guards against desecration and hostility. You can choose to manifest or suppress this aura as a bonus action. The effect extends 10 feet from you in every direction, but not through total cover.</p>
+            <p class="indent">Hostile creatures moving toward you treat space within the aura as difficult terrain. Also, within the space undead can't be raised or created, and written text can't be destroyed without your permission.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">Wile you aren't incapacitated you can emanate a spectral field of sacred bones that guards against desecration and hostility. You can choose to manifest or suppress this aura as a bonus action. The effect extends 10 feet from you in every direction, but not through total cover.
+            Hostile creatures moving toward you treat space within the aura as difficult terrain. Also, within the space undead can't be raised or created, and written text can't be destroyed without your permission.</description>
+            <description level="18">Wile you aren't incapacitated you can emanate a spectral field of sacred bones that guards against desecration and hostility. You can choose to manifest or suppress this aura as a bonus action. The effect extends 30 feet from you in every direction, but not through total cover.
+            Hostile creatures moving toward you treat space within the aura as difficult terrain. Also, within the space undead can't be raised or created, and written text can't be destroyed without your permission.</description>
+        </sheet>
+    </element>
+
+    <element name="Ancestral Memory" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_ANCESTRAL_MEMORY">
+        <description>
+            <p>Starting at 15th level, you can recognize all manner of relics through your connection to the past. You can read all writing and can perfectly recall any name that you learn. Additionally, you can focus on a magic item you are in physical contact with and learn its properties and how to use it as an action, instead of over of the course of a short rest.</p>
+        </description>
+        <sheet>
+            <description action="Action">You can read all writing and can perfectly recall any name that you learn. Additionally, you can focus on a magic item you are in physical contact with and learn its properties and how to use it as an action, instead of over of the course of a short rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Bridge to the Past" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TRADITION_BRIDGE_TO_THE_PAST">
+        <description>
+            <p>Beginning at 20th level, you can use your action to channel the legacy of history. For 10 minutes, you are surrounded by the bones and spirits of your forebears as they rise from the earth, and you gain the following benefits:</p>
+            <ul>
+                <li>You gain the benefits of the true seeing spell.</li>
+                <li>You can attack, target, touch, and see anything within 60 feet of you as if you were adjacent to it.</li>
+                <li>Hostile creatures treat space within 60 feet of you as lightly obscured and as difficult terrain.</li>
+                <li>A hostile creature that moves to any space within 60 feet of you takes 1d6 piercing damage. A creature takes this damage only once per turn.</li>
+            </ul>
+            <p class="indent">After using this feature, you must finish a long rest before you can use it again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You can use your action to channel the legacy of history. For 10 minutes, you are surrounded by the bones and spirits of your forebears as they rise from the earth, and you gain the following benefits: You gain the benefits of the true seeing spell. You can attack, target, touch, and see anything within 60 feet of you as if you were adjacent to it. Hostile creatures treat space within 60 feet of you as lightly obscured and as difficult terrain. A hostile creature that moves to any space within 60 feet of you takes 1d6 piercing damage. A creature takes this damage only once per turn.</description>
+        </sheet>
+    </element>
+    
+</elements>

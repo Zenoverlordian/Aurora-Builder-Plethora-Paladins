@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-society.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-society.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Society" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_SOCIETY">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>Rules and responsibilities: these are the ties that bind us. We do what we do, because of who we are. If we did otherwise, we would not be ourselves. I will do what I have to do. And I will do what I must.</em></p>
+            <p style="text-align:right">—Neil Gaiman, <em>The Sandman: Book of Dreams</em></p>
+            <p>Sometimes called lawgivers, lyans, or knight-pioneers, paladins who swear the Oath of Society believe order is the correct state of all things: without rules, society crumbles, and all life becomes nasty, brutish, and short; without the city or town, existence is uncomfortable and stagnates. Thus, chaos is more than distasteful—it is an existential threat. Distinguished by their advocacy of civilization as a symbol of law and order, many bearers of the Oath of Society can be found in the ranks of pioneers and trailblazers, laboring to tame the wilderness they perceive as disorder incarnate.</p>
+            <p class="indent">Paladins who swear this oath are loyal and duteous, with an unyielding focus on their worship and to smiting chaos. As such, they tend to be severe, even taciturn, in disposition. Nevertheless, they are no less unfailing in their dedication to hunting and striking down the forces of chaos everywhere.</p>
+            <h5>TENETS OF SOCIETY</h5>
+            <p>No matter where or when the Oath of Society is sworn, its tenets are universal.</p>
+            <p class="indent"><strong><em>Order.</em></strong> Be true to the ideals of law, and yield to legitimate authority. Strike down chaos where it stands. Act with consistency, and be disciplined in your conduct.</p>
+            <p class="indent"><strong><em>Decorum.</em></strong> Remember the structure and laws of polity. Be courteous, but serious and professional in your manner. Defer to authority and respect subordinates as appropriate to your respective stations. Do not be over-friendly or fond.</p>
+            <p class="indent"><strong><em>Civilization.</em></strong> Respect and honor the town, the barony, the kingdom, the empire. These institutions form the foundation of and are the hope for all meaningful life.</p>
+            <p class="indent"><strong><em>Responsibility.</em></strong> Do not be disorderly in your own conduct. Perform your duties to the highest letter of the law, and abide by the code of your oath and obligations.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_AURA_OF_CLARITY" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAWMANS_VIGOR" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_PILLAR_OF_SOCIETY" />
+            <h5>EDIFICIAL HIERARCHY</h5>
+            <p>The Oath of Society is inspired by the Lyan class presented in Dragon #106, in which it is described as the clergy of the Edificial Church, a faith dedicated to a deity known only as the arbiter. As appropriate to the campaign, setting, Dungeon Master, and players, you might consider incorporating this into the lore of the Oath of Society, considering their order to be the Edificial clergy. For ideas on how to structure this clergy, consider the following table as one example of how to arrange an Edificial Clergy.</p>
+            <table>
+                <thead>
+                    <tr><td>Office</td><td>Description</td></tr>
+                </thead>
+                <tr><td>Grand Hierophant</td><td>The grand hierophant is chief of the knightly order and presides over all the clergy from the central See of the faith.</td></tr>
+                <tr><td>Hierophant</td><td>A hierophant oversees the activities of prelates and their Sees and represents the Grand Hierophant.</td></tr>
+                <tr><td>Prelate</td><td>A prelate presides over a See, a collection of a few or several parishes of the faith.</td></tr>
+                <tr><td>Pastor</td><td>A deacon that advances in their training may be made a pastor, given responsibility over a chapel and parish.</td></tr>
+                <tr><td>Deacon</td><td>A knighted member who is authorized to minister on behalf of the faith.</td></tr>
+                <tr><td>Squire</td><td>An apprentice in training to become a fully-fledged knight and swear the Oath of Society.</td></tr>
+            </table>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAW_VS_CHAOS" />
+        </description>
+        <sheet display="false">
+            <description>Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of Anarchy binds a paladin to protecting freedom and nature against tyranny and control.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_AURA_OF_CLARITY" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAWMANS_VIGOR" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_PILLAR_OF_SOCIETY" level="20" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAW_VS_CHAOS" level="3" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Society Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>guiding bolt, sanctuary</td></tr>
+                <tr><td>5th</td><td>fair weather, hold person</td></tr>
+                <tr><td>9th</td><td>beacon of hope, protection from energy</td></tr>
+                <tr><td>13th</td><td>compulsion, Otiluke's resilient sphere</td></tr>
+                <tr><td>17th</td><td>commune with civilization, hallow</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_FAIR_WEATHER" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_COMPULSION" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_COMMUNE_WITH_CIVILIZATION" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HALLOW" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Blessed Settlement.</em></strong> With your Channel Divinity, you sanctify a space against the wilderness' chaos and encroachment. As an action, you speak an incantation to bless a circular area within a 15-foot radius centered on a point you touch, the edge of which is visibly marked by a faintly glowing silver-colored line. While within the blessed space, you and friendly creatures can add extra radiant damage equal to your Charisma modifier to the damage of an attack once per turn (minimum of 1). The area is also difficult terrain for hostile creatures. This effect lasts for 1 minute.</p>
+            <p class="indent">Additionally, you are magically made aware if any hostile creature is within the radius or enters the radius. You do not automatically know where they are or how many there are. If you are sleeping at the time, you are magically awoken and may use a reaction to stand. This effect lasts for 8 hours or until you leave the blessed space.</p>
+            <p class="indent"><strong><em>Turn the Unlawful.</em></strong> As an action, you can utter a prayer that is painful to creatures of chaos. You display your holy symbol and speak your condemnatory prayer, using your Channel Divinity. Each aberration, demon, or fey that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD_BLESSED_SETTLEMENT" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD_TURN_UNLAWFUL" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Blessed Settlement" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD_BLESSED_SETTLEMENT">
+        <description>
+            <p>With your Channel Divinity, you sanctify a space against the wilderness' chaos and encroachment. As an action, you speak an incantation to bless a circular area within a 15-foot radius centered on a point you touch, the edge of which is visibly marked by a faintly glowing silver-colored line. While within the blessed space, you and friendly creatures can add extra radiant damage equal to your Charisma modifier to the damage of an attack once per turn (minimum of 1). The area is also difficult terrain for hostile creatures. This effect lasts for 1 minute.</p>
+            <p class="indent">Additionally, you are magically made aware if any hostile creature is within the radius or enters the radius. You do not automatically know where they are or how many there are. If you are sleeping at the time, you are magically awoken and may use a reaction to stand. This effect lasts for 8 hours or until you leave the blessed space.</p></p>
+        </description>
+        <sheet alt="Blessed Settlement">
+            <description usage="Channel Divinity" action="Action">As an action, you speak an incantation to bless a circular area within a 15-foot radius centered on a point you touch, the edge of which is visibly marked by a faintly glowing silver-colored line. While within the blessed space, you and friendly creatures can add {{charisma:modifier}} extra radiant damage to the damage of an attack once per turn (minimum of 1). The area is also difficult terrain for hostile creatures. This effect lasts for 1 minute.
+            Additionally, you are magically made aware if any hostile creature is within the radius or enters the radius. You do not automatically know where they are or how many there are. If you are sleeping at the time, you are magically awoken and may use a reaction to stand. This effect lasts for 8 hours or until you leave the blessed space.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Turn the Unlawful" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD_TURN_UNLAWFUL">
+        <description>
+            <p>As an action, you can utter a prayer that is painful to creatures of chaos. You display your holy symbol and speak your condemnatory prayer, using your Channel Divinity. Each aberration, demon, or fey that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet alt="Turn the Unlawful">
+            <description usage="Channel Divinity" action="Action">As an action, you can utter a prayer that is painful to creatures of chaos. You display your holy symbol and speak your condemnatory prayer, using your Channel Divinity. Each aberration, demon, or fey that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+            A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Clarity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_AURA_OF_CLARITY">
+        <description>
+            <p>By 7th level, your presence dispels confusion and disarray. While you are conscious, you and friendly creatures within 10 feet of you are immune to being blinded, deafened, or affected by the confusion spell or effects similar to it.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you are conscious, you and friendly creatures within 10 feet of you are immune to being blinded, deafened, or affected by the confusion spell or effects similar to it.</description>
+            <description level="18">While you are conscious, you and friendly creatures within 30 feet of you are immune to being blinded, deafened, or affected by the confusion spell or effects similar to it.</description>
+        </sheet>
+    </element>
+
+    <element name="Lawman's Vigor" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAWMANS_VIGOR">
+        <description>
+            <p>Beginning at 15th level, the divine essence of your magics can shore up your own frame. Whenever you cast a paladin spell, you gain temporary hit points equal to your Charisma modifier plus the level of the spell (minimum of 1).</p>
+            <p class="indent">Additionally, you have advantage on Charisma (Persuasion) checks made to interact with people involved in government and law, such as bureaucrats, constabulary, judges, or royalty.</p>
+        </description>
+        <sheet>
+            <description>Whenever you cast a paladin spell, you gain temporary hit points equal to {{charisma:modifier}} plus the level of the spell (minimum of 1).
+            Additionally, you have advantage on Charisma (Persuasion) checks made to interact with people involved in government and law, such as bureaucrats, constabulary, judges, or royalty.</description>
+        </sheet>
+    </element>
+
+    <element name="Pillar of Society" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_PILLAR_OF_SOCIETY">
+        <description>
+            <p>At 20th level, you can use an action to become an inspiring avatar of cosmic law whose steps claim the earth for civilization. For 1 minute, your body looks as if it burns with a holy fire, and you gain the following benefits:</p>
+            <ul>
+                <li>Whenever you or a friendly creature within 30 feet of you hits with an attack, it inflicts an extra 1d6 radiant damage.</li>
+                <li>Each hostile creature within 30 feet of you must subtract 1d6 from any ability check or attack roll it makes.</li>
+                <li>You have advantage on saving throws against spells cast by aberrations and fey.</li>
+            </ul>
+            <p class="indent">Alternatively, you can cast the spell mighty fortress once without requiring a spell slot or material components. When you cast mighty fortress in this way, the fortress you conjure is affected by your Blessed Settlement feature for as long as it lasts.</p>
+            <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+            <div class="reference"> 
+                <div element="ID_XGTE_SPELL_MIGHTY_FORTRESS" />
+            </div>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">For 1 minute, your body looks as if it burns with a holy fire, and you gain the following benefits:</description>
+        </sheet>
+    </element>
+
+    <element name="Law Versus Chaos" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_LAW_VS_CHAOS">
+        <description>
+            <p>Inspired by the Lyan class introduced in Dragon #106, a paladin that takes the Oath of Society struggles in behalf of law against chaos, and thus thematically may often be unconcerned, even flippant, with the conflicts of good and evil.</p>
+            <p class="indent">For players and DMs interested in more fully reflecting the oath's theme within its mechanics, the following optional features can be included as part of Sacred Oath when it's taken or as part of the paladin's progression starting from 1st level:</p>
+            <h5>DETECT CHAOS</h5>
+            <p>When you use your Divine Sense, you detect the presence of aberrations, celestials, and fey instead of celestials, fiends, and undead.</p>
+            <h5>SCOURGE THE CHAOTIC</h5>
+            <p>The bite of your blows is focused not on the unholy, but on the lawless. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against aberrations and fey instead of fiends and undead.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Law Versus Chaos" supports="BunGM Law Vs Chaos" number="2" optional="true" />
+        </rules>
+    </element>
+    <element name="Detect Chaos" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_DETECT_CHAOS">
+        <supports>BunGM Law Vs Chaos</supports>
+        <description>
+            <p>When you use your Divine Sense, you detect the presence of aberrations, celestials, and fey instead of celestials, fiends, and undead.</p>
+        </description>
+        <sheet>
+            <description>When you use your Divine Sense, you detect the presence of aberrations, celestials, and fey instead of celestials, fiends, and undead.</description>
+        </sheet>
+    </element>
+    <element name="Scourge the Chaotic" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_SCOURGE_THE_CHAOTIC">
+        <supports>BunGM Law Vs Chaos</supports>
+        <description>
+            <p>The bite of your blows is focused not on the unholy, but on the lawless. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against aberrations and fey instead of fiends and undead.</p>
+        </description>
+        <sheet>
+            <description>The bite of your blows is focused not on the unholy, but on the lawless. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against aberrations and fey instead of fiends and undead.</description>
+        </sheet>
+    </element>
+    
+</elements>

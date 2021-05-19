@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-enlightenment.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-enlightenment.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Enlightenment" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_ENLIGHTENMENT">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>How many people here have telekinetic powers? Raise my hand.</em></p>
+            <p style="text-align:right">—Emo Philips</p>
+            <p>The Oath of Enlightenment is a sacred vow of self-development sworn by servants of psychic gods and orders of mystic practitioners. Called mindswords, these paladins blend their divine magics with rigorous self-discipline to hone psionic power. Through strict adherence to ascetic living and ponderous meditation, mindswords unlock the hidden powers of the mind, bolstering the strength of their will and the might of their flesh.</p>
+            <h5>TENETS OF ENLIGHTENMENT</h5>
+            <p>The Oath of Enlightenment rejects the rest of the world, preferring to find might and right in personal development.</p>
+            <p class="indent"><strong><em>Discipline.</em></strong> The mind is stronger than the body. Tame all your appetites, for they can only debase you.</p>
+            <p class="indent"><strong><em>Dispassion.</em></strong> The psyche is wiser than the heart. Temper all your passions, for they can only mislead you.</p>
+            <p class="indent"><strong><em>Detachment.</em></strong> The will is mightier than the world. Refrain from deep personal connections, for they can only limit you.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_AURA_OF_CLAIRVOYANCE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_ALIEN_ENDURANCE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_PARANORMAL_ASCENDANCY" />
+            <h5>ENLIGHTENING MEDITATIONS</h5>
+            <p>Mental discipline is paramount to a mindsword's power, and for most that is best cultivated through careful, deliberate meditation. Your paladin's meditative technique may be a reflection of their personal tastes or of the inherited teachings of a mystic order they are part of. Consider some of the ideas from the following table, or make up your own meditative technique for your paladin.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Meditative Technique</td></tr>
+                </thead>
+                <tr><td>1</td><td>You've mastered a technique to meditate while balanced upon only your head.</td></tr>
+                <tr><td>2</td><td>Waterfalls. You always want to sit under waterfalls.</td></tr>
+                <tr><td>3</td><td>Rather than meditate by sitting, you like to foster contemplation and self-control through all-day fasts.</td></tr>
+                <tr><td>4</td><td>You plug your ears and blindfold yourself while meditating. Isolation helps you focus.</td></tr>
+                <tr><td>5</td><td>When you meditate, you do not breathe, relying on careful mental control of your body's functions to survive without air for minutes, even hours.</td></tr>
+                <tr><td>6</td><td>You carefully shave your head as part of a daily meditative ritual.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>The Oath of Enlightenment is a sacred vow of self-development sworn by servants of psychic gods and orders of mystic practitioners. Called mindswords, these paladins blend their divine magics with rigorous self-discipline to hone psionic power.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_AURA_OF_CLAIRVOYANCE" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_ALIEN_ENDURANCE" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_PARANORMAL_ASCENDANCY" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Enlightenment Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>command, comprehend languages</td></tr>
+                <tr><td>5th</td><td>detect thoughts, enhance ability</td></tr>
+                <tr><td>9th</td><td>dispel magic, sending</td></tr>
+                <tr><td>13th</td><td>confusion, locate creature</td></tr>
+                <tr><td>17th</td><td>modify memory, telekinesis</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SENDING" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Mind Over Matter.</em></strong> You can augment your body with the might of your mind. When you would fail a saving throw to maintain concentration on a paladin spell, you can use your Channel Divinity as a reaction to succeed instead.</p>
+            <p class="indent"><strong><em>Phantom Smite.</em></strong> You can use your Channel Divinity as a bonus action to begin channeling psionic energy to transcend physical limitations. For 1 minute, your reach increases by 5 feet, and when you damage a creature with a weapon attack or with your Divine Smite or Improved Divine Smite features, you can choose to inflict psychic damage instead of the normal damage type. Also, when you make a melee attack while under this effect, you ignore half and cover and three-quarters cover.</p>
+            <p class="indent">You can end this effect on your turn (no action required), and it ends early if you are unconscious.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD_MIND_MATTER" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD_PHANTOM_SMITE" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Mind Over Matter" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD_MIND_MATTER">
+        <description>
+            <p>You can augment your body with the might of your mind. When you would fail a saving throw to maintain concentration on a paladin spell, you can use your Channel Divinity as a reaction to succeed instead.</p>
+        </description>
+        <sheet alt="Mind Over Matter">
+            <description usage="Channel Divinity" action="Reaction">When you would fail a saving throw to maintain concentration on a paladin spell, you can use your Channel Divinity as a reaction to succeed instead.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Phantom Smite" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_CD_PHANTOM_SMITE">
+        <description>
+            <p>You can use your Channel Divinity as a bonus action to begin channeling psionic energy to transcend physical limitations. For 1 minute, your reach increases by 5 feet, and when you damage a creature with a weapon attack or with your Divine Smite or Improved Divine Smite features, you can choose to inflict psychic damage instead of the normal damage type. Also, when you make a melee attack while under this effect, you ignore half and cover and three-quarters cover.</p>
+            <p class="indent">You can end this effect on your turn (no action required), and it ends early if you are unconscious.</p>
+        </description>
+        <sheet alt="Phantom Smite">
+            <description usage="Channel Divinity" action="Bonus Action">For 1 minute, your reach increases by 5 feet, and when you damage a creature with a weapon attack or with your Divine Smite or Improved Divine Smite features, you can choose to inflict psychic damage instead of the normal damage type. Also, when you make a melee attack while under this effect, you ignore half and cover and three-quarters cover. You can end this effect on your turn (no action required), and it ends early if you are unconscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Clairvoyance" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_AURA_OF_CLAIRVOYANCE">
+        <description>
+            <p>Starting at 7th level, you can envision those around you by sensing their errant thoughts, recreating your surroundings within your own mind. While you are conscious, you are aware of the exact location of any creature within 10 feet of you that has an Intelligence score of 4 or higher, as if you could directly see it.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you are conscious, you are aware of the exact location of any creature within 10 feet of you that has an Intelligence score of 4 or higher, as if you could directly see it.</description>
+            <description level="18">While you are conscious, you are aware of the exact location of any creature within 30 feet of you that has an Intelligence score of 4 or higher, as if you could directly see it.</description>
+        </sheet>
+    </element>
+
+    <element name="Alien Endurance" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_ALIEN_ENDURANCE">
+        <description>
+            <p>Beginning at 15th level, you can stimulate your physical resilience through pure willpower when threatened. When you take damage, you can use your reaction to gain resistance to that instance of damage.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Reaction">When you take damage, you can use your reaction to gain resistance to that instance of damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Paranormal Ascendancy" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ENLIGHTENMENT_PARANORMAL_ASCENDANCY">
+        <description>
+            <p>At 20th level, you can use your mastery of psionics to unlock the most potent capacity of your mind as an action. You gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>You are immune to psychic damage and can't be charmed.</li>
+                <li>You gain a flying (hover) speed of 30 feet.</li>
+                <li>You can cast your paladin spells without any components, as long as they don't have a listed cost.</li>
+                <li>You have advantage on saving throws to maintain concentration on a paladin spell you cast.</li>
+                <li>You can cast the spell psychic scream once without requiring a spell slot or any components.</li>
+            </ul>
+            <p class="indent">After using this feature, you must finish a long rest before you can use it again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You gain the following benefits for 1 minute: You are immune to psychic damage and can't be charmed. You gain a flying (hover) speed of 30 feet. You can cast your paladin spells without any components, as long as they don't have a listed cost. You have advantage on saving throws to maintain concentration on a paladin spell you cast. You can cast the spell psychic scream once without requiring a spell slot or any components.</description>
+        </sheet>
+    </element>
+    
+</elements>

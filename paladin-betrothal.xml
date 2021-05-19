@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-betrothal.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-betrothal.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Betrothal" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>"Lady Taiga, you really must be more careful," Eryck the Diviner said with a deep frown. "Why do you always put yourself in such danger just for my sake? You don't go nearly so far for our other comrades."</em></p>
+            <p class="indent"><em>Caught in the middle of cleaning her own blood off a set of battered battle armor, Lady Taiga spluttered momentarily before answering. "I-it's not like I LIKE you or anything!" she said. "It's just that—what if we find a magic sword, and you're too unconscious to identify it? How will I enjoy my Holy Avenger then?!"</em></p>
+            <p class="indent"><em>As they argued, the rest of the party only rolled their eyes. The blush on Taiga's face made the truth far too obvious.</em></p>
+            <p style="text-align:right">—Adventurers who are unwittingly trapped in a RomCom</p>
+            <p>Though many paladins swear to gods and fellowships, not every oath is so cosmic in nature. Some paladins receive their power from more humble vows: promises made between one mortal and another. Paladins who have sworn the Oath of Betrothal draw their magics from the divine force inherent in their love for another. Whether this oath is made as part of a formal matrimony or engagement or instead is the private declaration of commitment between youth is less important for the oath than the purity of the oathmaker's love.</p>
+            <p class="indent">Called Rose Knights, Devotees, or even Lovebirds by the more disparaging, these paladins find comfort and motivation in the powerful love they feel, whether they be passionately smitten at first sight or formally sworn to the love of their life.</p>
+            <h5>TENETS OF BETROTHAL</h5>
+            <p>As the private vows between partners, the tenets of Betrothal lack consistent phrasings. Nevertheless, the pure love common to every Oath of Betrothal includes these themes:</p>
+            <p class="indent"><strong><em>Affection.</em></strong> Your promise is not simple infatuation, nor is it carnal lust. It is love—pure, deep, and abiding.</p>
+            <p class="indent"><strong><em>Fidelity.</em></strong> Remember your oath, no matter how near or far your beloved may be; be true in deed, word, and thought.</p>
+            <p class="indent"><strong><em>Commitment.</em></strong> Yours is no passing fancy, but an everlasting bond that can only grow ever deeper and forever stronger.</p>
+            <p class="indent"><strong><em>Partnership.</em></strong> Love is unselfish. A true relationship is between two partners equal in value and united in heart.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_AURA_OF_CARE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CONSTANCY_OF_HEART" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_HOPEFUL_ROMANTIC" />
+            <h5>YOUR BELOVED</h5>
+            <p>Every Paladin of Betrothal has a beloved to whom their heart belongs, and it is to this person they direct and swear their oath. Consider with your DM who your beloved is and how they relate to the campaign. Does the person you love live in your hometown, waiting for you to safely return someday? Do you quest in order to rescue them from an evil that has taken them captive? Do you actively travel with the one with whom you are besotted? It can also be useful to think about what your beloved thinks of your choice to adventure. Do they approve of such heroics? Condemn you for risking your life? By fleshing out your beloved, you can enjoy a vibrant, living character instead of a one-dimensional love interest that exists only for you and contributes little else to the campaign.</p>
+            <p class="indent">Additionally, you may wish to determine the nature of your relationship with your beloved. The Oath of Betrothal can be sworn in many circumstances, from literal marriage to private pining. The following table includes a few ideas for describing that relationship. You can choose to roll on the table, select an idea, or come up with your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Relationship with Your Beloved</td></tr>
+                </thead>
+                <tr><td>1</td><td>You and your beloved are ecstatic newlyweds. Together, you shall build the rest of your lives.</td></tr>
+                <tr><td>2</td><td>Your beloved is presently your espoused; in time, you will be joined forever in matrimony. That special day can't come soon enough!</td></tr>
+                <tr><td>3</td><td>In the many years since you were wed, the fires of love and devotion have only burned more brightly. This life you've had together is all you could've asked for.</td></tr>
+                <tr><td>4</td><td>New love is filled with anxious thoughts and bubbly feelings, and you and your beloved are familiar with both. But could what you have become even more?</td></tr>
+                <tr><td>5</td><td>The love bug has bitten you hard, and you're head over heels for a beloved who hardly knows you. You hope that this love can be requited!</td></tr>
+                <tr><td>6</td><td>You have since settled down with your beloved, but there are many happy years yet in the future. And you treasure the family you now rear together beyond gold.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Every Paladin of Betrothal has a beloved to whom their heart belongs, and it is to this person they direct and swear their oath.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_AURA_OF_CARE" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CONSTANCY_OF_HEART" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_HOPEFUL_ROMANTIC" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Betrothal Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>ceremony, heroism</td></tr>
+                <tr><td>5th</td><td>enhance ability, warding bond</td></tr>
+                <tr><td>9th</td><td>haste, sending</td></tr>
+                <tr><td>13th</td><td>aura of purity, fire shield</td></tr>
+                <tr><td>17th</td><td>creation, dream</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CEREMONY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_WARDING_BOND" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SENDING" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_AURA_OF_PURITY" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CREATION" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DREAM" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Confess Love.</em></strong> Your loving declaration thunders with power from the depths of your heart. You can use your Channel Divinity as an action to invoke the name of your beloved, which is audible out to 100 feet. You gain temporary hit points equal to your paladin level, and one creature within 30 feet of you that can hear you of your choice must make a Strength saving throw. On a failed save, it is knocked prone and takes thunder damage equal to 1d6 + your paladin level. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>
+            <p class="indent"><strong><em>To Be True.</em></strong> When you or a creature within 30 feet of you fails a saving throw against an enchantment spell or against being charmed, you can use your reaction to speak a prayer of virtue, using your Channel Divinity. The affected creature rerolls the saving throw with advantage, possibly changing the failure to a success.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD_CONFESS_LOVE" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD_TO_BE_TRUE" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Confess Love" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD_CONFESS_LOVE">
+        <description>
+            <p>Your loving declaration thunders with power from the depths of your heart. You can use your Channel Divinity as an action to invoke the name of your beloved, which is audible out to 100 feet. You gain temporary hit points equal to your paladin level, and one creature within 30 feet of you that can hear you of your choice must make a Strength saving throw. On a failed save, it is knocked prone and takes thunder damage equal to 1d6 + your paladin level. On a successful save, the creature takes half as much damage and isn't knocked prone.</p>
+        </description>
+        <sheet alt="Confess Love">
+            <description usage="Channel Divinity" action="Action">You can use your Channel Divinity as an action to invoke the name of your beloved, which is audible out to 100 feet. You gain {{level:paladin}} temporary hit points, and one creature within 30 feet of you that can hear you of your choice must make a Strength saving throw. On a failed save, it is knocked prone and takes thunder damage equal to 1d6 + {{level:paladin}}. On a successful save, the creature takes half as much damage and isn't knocked prone.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: To Be True" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CD_TO_BE_TRUE">
+        <description>
+            <p>When you or a creature within 30 feet of you fails a saving throw against an enchantment spell or against being charmed, you can use your reaction to speak a prayer of virtue, using your Channel Divinity. The affected creature rerolls the saving throw with advantage, possibly changing the failure to a success.</p>
+        </description>
+        <sheet alt="To Be True">
+            <description usage="Channel Divinity" action="Reaction">When you or a creature within 30 feet of you fails a saving throw against an enchantment spell or against being charmed, you can use your reaction to speak a prayer of virtue, using your Channel Divinity. The affected creature rerolls the saving throw with advantage, possibly changing the failure to a success.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Care" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_AURA_OF_CARE">
+        <description>
+            <p>At 7th level, your heartfelt spirit manifests as an aura of succor and sacrifice. At the start of each of your turns while you aren't incapacitated, you can choose to lose hit points up to your paladin level, converting your vitality into healing energy that can restore a number of hit points equal to those you lost. Choose any conscious creatures within 10 feet of you, and divide those hit points among them. You can't use this feature on undead or constructs.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">At the start of each of your turns while you aren't incapacitated, you can choose to lose up to {{level:paladin}} hit points, converting your vitality into healing energy that can restore a number of hit points equal to those you lost. Choose any conscious creatures within 10 feet of you, and divide those hit points among them. You can't use this feature on undead or constructs.</description>
+            <description level="18">At the start of each of your turns while you aren't incapacitated, you can choose to lose up to {{level:paladin}} hit points, converting your vitality into healing energy that can restore a number of hit points equal to those you lost. Choose any conscious creatures within 30 feet of you, and divide those hit points among them. You can't use this feature on undead or constructs.</description>
+        </sheet>
+    </element>
+
+    <element name="Constancy of Heart" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_CONSTANCY_OF_HEART">
+        <description>
+            <p>Starting at 15th level, the integrity of your love is unmarred. You can't be affected by any enchantment spell unless you choose to be.</p>
+        </description>
+        <sheet>
+            <description>You can't be affected by any enchantment spell unless you choose to be.</description>
+        </sheet>
+    </element>
+
+    <element name="Hopeful Romantic" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BETROTHAL_HOPEFUL_ROMANTIC">
+        <description>
+            <p>At 20th level, you can use your action to draw upon your love to aid you in battle, placing you in danger before others. Your heart itself visibly glows with burning light, as though searing your flesh, and for 1 minute, you gain the following benefits:</p>
+            <ul>
+                <li>Bright light shines from you in a 15-foot radius, and dim light shines 15 feet beyond that.</li>
+                <li>Hostile creatures within 30 feet of you have disadvantage on all attack rolls made against any creature besides you.</li>
+                <li>When you roll a 1 or 2 on a damage die, you may reroll the die and must use the new roll.</li>
+            </ul>
+            <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">Your heart itself visibly glows with burning light, as though searing your flesh, and for 1 minute, you gain the following benefits: Bright light shines from you in a 15-foot radius, and dim light shines 15 feet beyond that. Hostile creatures within 30 feet of you have disadvantage on all attack rolls made against any creature besides you. When you roll a 1 or 2 on a damage die, you may reroll the die and must use the new roll.</description>
+        </sheet>
+    </element>
+    
+</elements>

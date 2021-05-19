@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-detachment.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-detachment.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Detachment" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_DETACHMENT">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>What is true for you, is true for you, and what is true for me, is true for me.</em></p>
+            <p style="text-align:right">—Protagoras, <em>Ideas of the Great Philosophers</em></p>
+            <p>The grand struggles of cosmic forces representing good, evil, law, and chaos engulf many worlds in the multiverse. Those who take on the Oath of Detachment are paladins who choose to step back from this conflict, believing alliance with any extreme only blinds one to the truths of the universe. Instead, these warriors pursue the objectivity of what they deem "ultimate truth," believing it to lie within a perfect balance of all possible beliefs, factions, and practices. Bearers of the oath are further distinguished by the way they blend divine mysticism with arcane technique, as the Oath of Detachment reverences arcana as a neutral power with no regard for passion or belief. These paladins are most often called impartialists, knight-arcanists, or paramanders.</p>
+            <p class="indent">Being merely mortal, such warriors cannot do literal battle with the very forces of cosmic ethics. However, it is common for such to target monsters they see as the physical incarnations of extremity. Dragons and giants especially earn their ire for how their disproportionate strength and violent tendencies can unduly impact the surrounding world.</p>
+            <h5>TENETS OF DETACHMENT</h5>
+            <p>The Oath of Detachment may be sworn by servants of arcane gods, pantheons of knowledge, or secret worldly fellowships.</p>
+            <p class="indent"><strong><em>Uphold the Balance.</em></strong> Distance yourself from all extremes and the strife inherent to such division. The world is what it is, and each player has their part.</p>
+            <p class="indent"><strong><em>Moderate Your Passion.</em></strong> Intense emotion is the birthplace of the conflicts you seek to quell. As in all things, be sober and employ your mind over your heart.</p>
+            <p class="indent"><strong><em>Seek After Truth.</em></strong> Of all things that are, truth is the greatest of all. Treasure pure knowledge in all its forms.</p>
+            <p class="indent"><strong><em>Guide the Lost.</em></strong> Though you conquer imbalance, you sow only sectarianism if you forget to aid to those without your insight. Respect those who do not understand the virtues of balance. Your companionship will turn them to your cause.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_AURA_OF_TEMPERANCE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_WITHOUT_OPINION" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_IMPOSE_COMPROMISE" />
+            <h5>QUIRKS OF DETACHMENT</h5>
+            <p>As part of their aloof committment to cosmic balance, some paladins of Detachment practice distinctive habits as an outward means of reminding themselves of their oath. Others manifest traits—whether behavioral or physical—more reflexively, their minds and bodies using such quirks to cope with the mental and emotional rigor of total detachment.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Trait</td></tr>
+                </thead>
+                <tr><td>1</td><td>When faced with a moral quandary, you universally prefer dissembling over discussion.</td></tr>
+                <tr><td>2</td><td>Your most prized possession is a spellbook you swear was signed by Mordenkainen himself.</td></tr>
+                <tr><td>3</td><td>Your favorite meals are both sweet and sour.</td></tr>
+                <tr><td>4</td><td>Your eyes are each a different, opposing color, such as blue and orange or green and red.</td></tr>
+                <tr><td>5</td><td>You watch people argue with each other as a pastime.</td></tr>
+                <tr><td>6</td><td>You struggle to commit yourself to almost anything.</td></tr>
+                <tr><td>7</td><td>You've dyed your hair an unnatural shade, and you rotate its hue through the color wheel like clockwork.</td></tr>
+                <tr><td>8</td><td>You are perfectly ambidextrous.</td></tr>
+                <tr><td>9</td><td>Being either the tallest or the shortest person in the room makes you feel nervous.</td></tr>
+                <tr><td>10</td><td>Seeing arcane magic mesmerizes you so completely that it is somewhat embarrassing for you or others.</td></tr>
+            </table>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS" />
+        </description>
+        <sheet display="false">
+            <description>The grand struggles of cosmic forces representing good, evil, law, and chaos engulf many worlds in the multiverse. Those who take on the Oath of Detachment are paladins who choose to step back from this conflict, believing alliance with any extreme only blinds one to the truths of the universe.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_AURA_OF_TEMPERANCE" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_WITHOUT_OPINION" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_IMPOSE_COMPROMISE" level="20" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS" level="3" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Detachment Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>detect magic, identify</td></tr>
+                <tr><td>5th</td><td>blur, calm emotions</td></tr>
+                <tr><td>9th</td><td>clairvoyance, magic circle</td></tr>
+                <tr><td>13th</td><td>banishment, elemental bane</td></tr>
+                <tr><td>17th</td><td>contact other plane, legend lore</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CLAIRVOYANCE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_MAGIC_CIRCLE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BANISHMENT" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_ELEMENTAL_BANE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CONTACT_OTHER_PLANE" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Consecrated Casting.</em></strong> You can use your Channel Divinity to tap into a well of arcane power. Choose a spell of 1st-level or higher from the wizard spell list. You cast the spell, expending an appropriate spell slot. The spell you choose must be of a level you are capable of casting, and it must be cast using an action or bonus action.</p>
+            <p class="indent"><strong><em>Turn the Extreme.</em></strong> As an action, you use your Channel Divinity to speak an ancient word of power rebuking cosmic imbalance. Each dragon or giant within 30 feet of you that can hear you must make a Wisdom saving throw. A creature that fails the saving throw is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD_CONSECRATED_CASTING" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD_TURN_EXTREME" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Consecrated Casting" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD_CONSECRATED_CASTING">
+        <description>
+            <p>You can use your Channel Divinity to tap into a well of arcane power. Choose a spell of 1st-level or higher from the wizard spell list. You cast the spell, expending an appropriate spell slot. The spell you choose must be of a level you are capable of casting, and it must be cast using an action or bonus action.</p>
+        </description>
+        <sheet alt="Consecrated Casting">
+            <description usage="Channel Divinity">Choose a spell of 1st-level or higher from the wizard spell list. You cast the spell, expending an appropriate spell slot. The spell you choose must be of a level you are capable of casting, and it must be cast using an action or bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Turn the Extreme" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_CD_TURN_EXTREME">
+        <description>
+            <p>As an action, you use your Channel Divinity to speak an ancient word of power rebuking cosmic imbalance. Each dragon or giant within 30 feet of you that can hear you must make a Wisdom saving throw. A creature that fails the saving throw is turned for 1 minute or until it takes damage.</p>
+            <p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</p>
+        </description>
+        <sheet alt="Turn the Extreme">
+            <description usage="Channel Divinity" action="Action">Each dragon or giant within 30 feet of you that can hear you must make a Wisdom saving throw. A creature that fails the saving throw is turned for 1 minute or until it takes damage.
+            A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Temperance" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_AURA_OF_TEMPERANCE">
+        <description>
+            <p>By 7th level, you emanate moderation and balance. Critical hits inflicted against friendly creatures within 10 feet of you are resolved as normal hits while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">Critical hits inflicted against friendly creatures within 10 feet of you are resolved as normal hits while you are conscious.</description>
+            <description level="18">Critical hits inflicted against friendly creatures within 30 feet of you are resolved as normal hits while you are conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Without Opinion" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_WITHOUT_OPINION">
+        <description>
+            <p>At 15th level, your mind becomes further removed from the world and its quarrels, and your ambivalence is inscrutable. You are immune to any effect that would sense your emotions or read your thoughts, and you can't be targeted by divination magic that you don't choose to be affected by. Wisdom (Insight) checks to ascertain your intentions or sincerity are made at disadvantage.</p>
+            <p class="indent">You also gain proficiency in Intelligence saving throws, and your alignment can't be changed by magic unless you allow it.</p>
+        </description>
+        <sheet>
+            <description>You are immune to any effect that would sense your emotions or read your thoughts, and you can't be targeted by divination magic that you don't choose to be affected by. Wisdom (Insight) checks to ascertain your intentions or sincerity are made at disadvantage. Your alignment can't be changed by magic unless you allow it.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+        </rules>
+    </element>
+
+    <element name="Impose Compromise" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_IMPOSE_COMPROMISE">
+        <description>
+            <p>At 20th level, you can use an action to enforce your will for dispassionate balance upon the rest of the world. For 1 minute, you gain the following benefits:</p>
+            <ul>
+                <li>Whenever a creature damages you, you can use a reaction to take half as much damage and cause the creature to lose the same number of hit points.</li>
+                <li>When you miss with an attack, you still inflict half as much damage as you would've had you hit.</li>
+                <li>If you would make an ability check, attack roll, or saving throw at disadvantage, you instead make the roll normally.</li>
+                <li>If a creature would make an ability check, attack roll, or saving throw against you at advantage, it instead makes the roll normally.</li>
+                <li>You gain the benefits of the true seeing spell.</li>
+            </ul>
+            <p class="indent">You can use this feature once and regain its use after finishing a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">For 1 minute, you gain the following benefits: Whenever a creature damages you, you can use a reaction to take half as much damage and cause the creature to lose the same number of hit points. When you miss with an attack, you still inflict half as much damage as you would've had you hit. If you would make an ability check, attack roll, or saving throw at disadvantage, you instead make the roll normally. If a creature would make an ability check, attack roll, or saving throw against you at advantage, it instead makes the roll normally. You gain the benefits of the true seeing spell.</description>
+        </sheet>
+    </element>
+
+    <element name="Neutrality Versus Everything Else" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS">
+        <description>
+            <p>Inspired by the Paramander class introduced in Dragon #106, the Oath of Detachment is sworn by paladins dedicated to supporting pure neutrality against everything else. Such paladins may thus prefer to be aloof from the clashes between evil, good, chaos, and law. This is reflected in the class's original features, including detection of and bonus damage against creatures that weren't neutral.</p>
+            <p class="indent">For players and DMs interested in similar and other mechanics to further the theme of this Sacred Oath, the following optional features can be included as part of the Oath of Detachment when it's taken or as part of the paladin's progression starting from 1st level:</p>
+            <h5>Arcanist</h5>
+            <p>You can use an arcane focus (see the Adventuring Gear section of the Player's Handbook) as a spellcasting focus for your paladin spells.</p>
+            <h5>Detect Imbalance</h5>
+            <p>When you use your Divine Sense, you detect the presence of dragons, giants, and undead instead of celestials, fiends, and undead.</p>
+            <h5>Smite the Radical</h5>
+            <p>The bite of your blows is focused not on the unholy, but on the extreme. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against dragons and giants instead of fiends and undead.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Neutrality Versus Everything Else" supports="BunGM Neutrality Vs All" number="3" optional="true" />
+        </rules>
+    </element>
+    <element name="Arcanist" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS_ARCANIST">
+        <supports>BunGM Neutrality Vs All</supports>
+        <description>
+            <p>You can use an arcane focus (see the Adventuring Gear section of the Player's Handbook) as a spellcasting focus for your paladin spells.</p>
+        </description>
+        <sheet>
+            <description>You can use an arcane focus as a spellcasting focus for your paladin spells.</description>
+        </sheet>
+    </element>
+    <element name="Detect Imbalance" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS_DETECT_IMBALANCE">
+        <supports>BunGM Neutrality Vs All</supports>
+        <description>
+            <p>When you use your Divine Sense, you detect the presence of dragons, giants, and undead instead of celestials, fiends, and undead.</p>
+        </description>
+        <sheet>
+            <description>When you use your Divine Sense, you detect the presence of dragons, giants, and undead instead of celestials, fiends, and undead.</description>
+        </sheet>
+    </element>
+    <element name="Smite the Radical" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DETACHMENT_NEUTRALITY_VS_SMITE_RADICAL">
+        <supports>BunGM Neutrality Vs All</supports>
+        <description>
+            <p>The bite of your blows is focused not on the unholy, but on the extreme. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against dragons and giants instead of fiends and undead.</p>
+        </description>
+        <sheet>
+            <description>The bite of your blows is focused not on the unholy, but on the extreme. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against dragons and giants instead of fiends and undead.</description>
+        </sheet>
+    </element>
+    
+</elements>

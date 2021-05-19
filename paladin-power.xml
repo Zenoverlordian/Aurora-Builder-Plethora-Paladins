@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-power.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-power.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Power" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_POWER">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>Most heroes show signs of greatness even as children. Many of them claim that their bodies simply moved before they could think!</em></p>
+            <p style="text-align:right">—Kōhei Horikoshi, <em>My Hero Academia</em></p>
+            <p>For many mortals, power is a means of control and a resource for rule. You, however, have been granted power for the purpose of providing it to others again. Your strength is a gift you use to become a living symbol of hope that brings peace to others' hearts and power into their lives. Lead the way, and rise up against those evil forces that would threaten the realm or oppress the commoner. You have the power!</p>
+            <h5>TENETS OF POWER</h5>
+            <p>Whether you received your gift from a precursor people, god, magical artifact, or the mystic locus of a people in need, this oath obligates you to honorable living and heroic deeds.</p>
+            <p class="indent"><strong><em>Righteous Cause.</em></strong> Your power is a privilege, not a right. It should be wielded to safeguard, save, and serve.</p>
+            <p class="indent"><strong><em>Brave Conduct.</em></strong> Fear is the enemy that will make you hold back. Be brave; step forward. You are the hero people need!</p>
+            <p class="indent"><strong><em>Living Inspiration.</em></strong> More than a rescuer, a hero is an ideal. Be an example and inspiration to those who need one most.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_AURA_OF_HOPE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_HERO_OF_LIGHT" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_MASTER_OF_THE_UNIVERSE" />
+            <h5>PERSONA OF POWER</h5>
+            <p>With your heroic transformation as a paladin bearing the Oath of Power comes the opportunity to cultivate a persona of power to idealize and encapsulate your heroic cause. Some of the greatest heroes live forever because what they represent lives beyond their physical deeds. A few ideas for such personas are presented in the following table, and you might also use these as inspiration to create your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Persona of Power</td></tr>
+                </thead>
+                <tr><td>1</td><td>You fashion your persona after a mundane animal, such as owls or praying mantises.</td></tr>
+                <tr><td>2</td><td>You call yourself the Icon of Amity, dedicated to making the world safer for everyone.</td></tr>
+                <tr><td>3</td><td>While your persona is brash and confident, as yourself you tend to be shy and bumbling.</td></tr>
+                <tr><td>4</td><td>Although your persona used to be a secret to everyone, you recently chose to reveal to the world your true identity.</td></tr>
+                <tr><td>5</td><td>You've somehow gotten away with the audacious claim that your heroic persona is an identical twin.</td></tr>
+                <tr><td>6</td><td>Instead of maintaining a singular persona, you invent a new heroic identity every time you transform.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Your strength is a gift you use to become a living symbol of hope that brings peace to others' hearts and power into their lives.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_AURA_OF_HOPE" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_HERO_OF_LIGHT" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_LIMITLESS_POWER" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Power Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>heroism, jump</td></tr>
+                <tr><td>5th</td><td>calm emotions, magic weapon</td></tr>
+                <tr><td>9th</td><td>beacon of hope, call lightning</td></tr>
+                <tr><td>13th</td><td>find greater steed , freedom of movement</td></tr>
+                <tr><td>17th</td><td>awaken, commune</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEROISM" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_JUMP" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_MAGIC_WEAPON" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_FIND_GREATER_STEED" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_AWAKEN" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_COMMUNE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>For the Honor.</em></strong> Using your Channel Divinity as an action, you draw a weapon and transform into a heroic icon, unleashing fabulous secret powers. You grow until you are eight feet tall, and your equipment grows with you; your size becomes Medium, unless you were larger. Dim light is shed from you in a 30-foot radius.</p>
+            <p class="indent">While transformed in this way, you automatically succeed on Charisma checks made to conceal your identity, and you add your Charisma modifier to Strength ability checks and to the damage rolls of weapon attacks you make using Strength (minimum +1). If the weapon you drew is not already magical, it becomes magical for the duration of your transformation.</p>
+            <p class="indent">This transformation lasts for 1 minute or until you end it as a bonus action or fall unconscious.</p>
+            <p class="indent"><strong><em>The Power Returns.</em></strong> You can quell the fabulous secret powers you hold and adopt more unassuming mannerisms as an action, using your Channel Divinity. For 1 hour, you add your Charisma modifier to your Dexterity (Stealth) checks (minimum +1).</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD_FOR_THE_HONOR" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD_POWER_RETURNS" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: For the Honor" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD_FOR_THE_HONOR">
+        <description>
+            <p>Using your Channel Divinity as an action, you draw a weapon and transform into a heroic icon, unleashing fabulous secret powers. You grow until you are eight feet tall, and your equipment grows with you; your size becomes Medium, unless you were larger. Dim light is shed from you in a 30-foot radius.</p>
+            <p class="indent">While transformed in this way, you automatically succeed on Charisma checks made to conceal your identity, and you add your Charisma modifier to Strength ability checks and to the damage rolls of weapon attacks you make using Strength (minimum +1). If the weapon you drew is not already magical, it becomes magical for the duration of your transformation.</p>
+            <p class="indent">This transformation lasts for 1 minute or until you end it as a bonus action or fall unconscious.</p>
+        </description>
+        <sheet alt="For the Honor">
+            <description usage="Channel Divinity" action="Action">Using your Channel Divinity as an action, you draw a weapon and transform into a heroic icon, unleashing fabulous secret powers. You grow until you are eight feet tall, and your equipment grows with you; your size becomes Medium, unless you were larger. Dim light is shed from you in a 30-foot radius.
+            While transformed in this way, you automatically succeed on Charisma checks made to conceal your identity, and you add {{charisma:modifier}} to Strength ability checks and to the damage rolls of weapon attacks you make using Strength (minimum +1). If the weapon you drew is not already magical, it becomes magical for the duration of your transformation.
+            This transformation lasts for 1 minute or until you end it as a bonus action or fall unconscious.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: The Power Returns" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_CD_POWER_RETURNS">
+        <description>
+            <p>You can quell the fabulous secret powers you hold and adopt more unassuming mannerisms as an action, using your Channel Divinity. For 1 hour, you add your Charisma modifier to your Dexterity (Stealth) checks (minimum +1).</p>
+        </description>
+        <sheet alt="The Power Returns">
+            <description usage="Channel Divinity" action="Action">You can quell the fabulous secret powers you hold and adopt more unassuming mannerisms as an action, using your Channel Divinity. For 1 hour, you add {{charisma:modifier}} to your Dexterity (Stealth) checks (minimum +1).</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Hope" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_AURA_OF_HOPE">
+        <description>
+            <p>Beginning at 7th level, your invigorating presence propels your cause forward. While you are conscious, you and friendly creatures within 10 feet of you add your Charisma modifier to initiative checks (minimum +1).</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you are conscious, you and friendly creatures within 10 feet of you add {{charisma:modifier}} to initiative checks (minimum +1).</description>
+            <description level="18">While you are conscious, you and friendly creatures within 30 feet of you add {{charisma:modifier}} to initiative checks (minimum +1).</description>
+        </sheet>
+    </element>
+
+    <element name="Hero of Light" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_HERO_OF_LIGHT">
+        <description>
+            <p>Starting at 15th level, your unconquerable spirit dispels all shadows and despair. When you succeed on a saving throw while under the effects of For the Honor, friendly creatures within the light you shed gain temporary hit points equal to your Charisma modifier, and hostile creatures within the light take lightning or radiant damage (your choice) equal to your Charisma modifier (minimum 1).</p>
+        </description>
+        <sheet>
+            <description>When you succeed on a saving throw while under the effects of For the Honor, friendly creatures within the light you shed gain {{charisma:modifier}} temporary hit points, and hostile creatures within the light take {{charisma:modifier}} lightning or radiant damage (your choice) (minimum 1).</description>
+        </sheet>
+    </element>
+
+    <element name="Master of the Universe" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_POWER_MASTER_OF_THE_UNIVERSE">
+        <description>
+            <p>At 20th level, you can use your action to become the most powerful mortal in the universe. For 1 minute, you gain the effects of For the Honor, along with the following benefits:</p>
+            <ul>
+                <li>You grow until you are ten feet tall, and your equipment grows with you; your size becomes Large, unless you were larger. Your reach and walking speed double.</li>
+                <li>You shed bright light in a 30-foot radius and dim light 30 feet beyond that.</li>
+                <li>Each of your ability scores becomes 22, unless it was already higher.</li>
+            </ul>
+            <p class="indent">After taking this action, you must finish a long rest before you can do so again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">At 20th level, you can use your action to become the most powerful mortal in the universe. For 1 minute, you gain the effects of For the Honor, along with the following benefits: You grow until you are ten feet tall, and your equipment grows with you; your size becomes Large, unless you were larger. Your reach and walking speed double. You shed bright light in a 30-foot radius and dim light 30 feet beyond that. Each of your ability scores becomes 22, unless it was already higher.</description>
+        </sheet>
+    </element>
+    
+</elements>

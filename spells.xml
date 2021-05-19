@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/spells.xml" />
+        </update>
+    </info>
+    
+    <element name="Aura of Burning" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_AURA_OF_BURNING">
+        <supports>Paladin</supports>
+        <description>
+            <p>Ravenous fire emanates from you in a 30-foot radius, delivering judgment upon your enemies. Until the spell ends, the aura moves with you, centered on you. Space within it is hazy and lightly obscured to hostile creatures. Whenever a hostile creature enters the aura for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A creature takes 3d10 fire damage on a failed save and half as much on a success.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (30 feet)</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Aura of Endurance" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_AURA_OF_ENDURANCE">
+        <supports>Paladin</supports>
+        <description>
+            <p>Fortifying energy emanates from you in a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Nonhostile creatures in the aura (including you) gain advantage on saving throws to prevent exhaustion, and all damage taken by such creatures is reduced by 2.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (30 feet)</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Beseech Muse" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_BESEECH_MUSE">
+        <supports>Bard</supports>
+        <description>
+            <p>You seek after the inspiration of a great figure of art and creation, such as a celestial patron of music or an ancient craftsman of legend. Contacting this being requires all the creative energy you possess and carries the risk of damaging your will. When you cast this spell, make a DC 15 Charisma saving throw. If you fail, you lose the ability to cast spells, and you have disadvantage on attack rolls, ability checks, and saving throws until you finish a long rest. A greater restoration spell also ends this effect.</p>
+            <p class="indent">On a successful save, you can ask the being up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as "yes," "no," "maybe," "never," "unimportant," or "unknown" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Divination</set>
+            <set name="time">10 minutes</set>
+            <set name="range">Self</set>
+            <set name="duration">1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a personal work of art</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Commune with Civilization" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_COMMUNE_WITH_CIVILIZATION">
+        <supports>Bard</supports>
+        <description>
+            <p>You briefly become one with civilization and gain knowledge of the surrounding territory. In a civilized area, the spell gives you knowledge of the area within 3 miles of you. The spell doesn't function in the wilderness, requiring notable levels of construction and civilization in the area.</p>
+            <p class="indent">You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:</p>
+            <ul>
+                <li>Road layout and landmarks</li>
+                <li>Prevalent goods, services, factions, or cultures</li>
+                <li>Powerful celestials, fey, fiends, elementals, or undead</li>
+                <li>Influence from other planes of existence Building types of your choice</li>
+            </ul>
+            <p class="indent">For example, you could determine the fastest route to the city center, the most prevalent race amongst the population, and the location of any blacksmiths in the area.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Divination</set>
+            <set name="time">1 minute</set>
+            <set name="range">Self</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    
+    <element name="Destroy Evil and Good" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_DESTROY_EVIL_AND_GOOD">
+        <supports>Cleric</supports>
+        <description>
+            <p>You wield shimmering energy, the power of which is devastating to fey, undead, and creatures originating from beyond the Material Plane. Make a melee spell spell attack against a celestial, elemental, fey, fiend, or undead you can reach. On a hit, if its Challenge Rating is less than your level, it is instantly destroyed. Creatures destroyed this way can't reform on another plane of existence.</p>
+            <p class="indent">If the target's Challenge Rating isn't less than your level, it takes 12d12 force damage.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">holy water or powdered silver and iron</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Dispossess Authority" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_DISPOSSESS_AUTHORITY">
+        <supports>Cleric</supports>
+        <description>
+            <p>You strip one creature within range of your choice of the authority, powers, and rights of the relevant clergy or knighthood of your faith. The spell must be cast on a creature that is a cleric or paladin in service to the same deity, fellowship, patron, or philosophy as you and has acted in incontrovertible apostasy against the aforementioned, or else the spell fails.</p>
+            <p class="indent">The target loses all cleric or paladin levels it possesses, and it cannot gain cleric or paladin levels as one in service to your deity, fellowship, patron, or philosophy unless it is first successfully affected by the Atonement effect of the Ceremony spell cast at 5th level by a cleric or paladin in service to your deity, fellowship, patron, or philosophy.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Enchantment</set>
+            <set name="time">10 minutes</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a holy symbol of the caster's diety, fellowship, patron, or philosophy worth at least 7777 gold pieces</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    
+    <element name="Empathy Link" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_EMPATHY_LINK">
+        <supports>Bard, Druid, Sorcerer, Wizard, Occultist</supports>
+        <description>
+            <p>You create an empathic connection between two creatures within range, shifting the pain of one to the experience of the other. When one of the targets takes damage during the duration, you can use your reaction to end the spell and force the other to make an Intelligence saving throw. On a failure, the damage the first creature takes is reduced by up to 20, and the other takes psychic damage equal to the amount of damage that was reduced. On a success, the damage is instead reduced by up to half as much, with the same effect.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage reduction increases by 10 for each slot level above 4th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">10 minutes</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">three crumbs of bread</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Fair Weather" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_FAIR_WEATHER">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>Fresh winds emanate from you in a 30-foot radius, temporarily dispelling severe weather. Until the spell ends, the effect moves with you, centered on you. Space within it is protected against any extreme weather conditions, such as extreme heat, extreme cold, strong winds, and heavy precipitation, as described in Chapter 5 of the Dungeon Master's Guide.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 hour for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self (30 feet)</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Gabriel's Horn" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_GABRIELS_HORN">
+        <supports>Bard, Cleric, Paladin, Ranger, Wizard</supports>
+        <description>
+            <p>As part of casting the spell, you perform a mystical tune on the brass bugle, preparing the minds of creatures that hear it for either labor or leave. The spell has different effects depending on when during the day you cast it:</p>
+            <p class="indent"><strong>Reveille:</strong> If you cast the spell in the morning, you play an energizing tune, filling creatures with vim and vigor. Creatures within range wake up. For the duration they are immune to effects that would force them to sleep, and they can move through nonmagical difficult terrain without expending any extra movement.</p>
+            <p class="indent"><strong>Retreat:</strong> If you cast the spell in the evening, you play a solemn melody, relaxing weary hearts that hear it. For the duration, each creature within range sleeps or otherwise rests without nightmares, becomes immune to the dream spell, and experiences no negative effects from resting while wearing medium or heavy armor.</p>
+            <p class="indent">If you cast the spell at any other time of day, it fails.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="duration">8 hours</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a brass bugle</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Immobilizing Smite" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_IMMOBILIZING_SMITE">
+        <supports>Paladin</supports>
+        <description>
+            <p>The next time you hit a creature with a weapon attack before the spell ends, your weapon flashes with an immobilizing shock. The attack deals an extra 3d10 lightning damage, and the target must make a Constitution saving throw. If it fails, it it paralyzed until the end of its next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">Self</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Instant Ampphitheater" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_INSTANT_AMPHITHEATER">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>You manifest a circular amphitheater with a 50 foot radius centered on a point within range. The space the amphitheater takes up must not have any structures or other buildings in it, and it remains until the spell ends.</p>
+            <p class="indent">The amphitheater is built of wood, but you otherwise decide all other aspects of its appearance. The interior is enclosed by walls, a floor, and a roof. One set of double doors allows entry, and there are as many windows as you like. Only you and any other creatures you invite into the amphitheater can open the doors, and nothing can physically pass through the walls.</p>
+            <p class="indent">The interior has seating for up to 80 Medium or smaller creatures in a round, surrounding a three-tiered stage in the center. The atmosphere is clean and comfortably cool. Lanterns hang at regular intervals along the outer wall and from the roof.</p>
+            <p class="indent">You and any creatures of your choice have advantage on Charisma checks made while on the stage, and other creatures have disadvantage on Wisdom (Insight) checks they make while inside the amphitheater.</p>
+            <p class="indent">Casting this spell on the same spot everyday for a year makes this effect permanent.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 hour</set>
+            <set name="range">360 feet</set>
+            <set name="duration">24 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a conductor's baton and sawdust</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Lesser Wish" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_LESSER_WISH">
+        <supports>Bard, Sorcerer, Wizard</supports>
+        <description>
+            <p>Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.</p>
+            <p class="indent">This is not that spell.</p>
+            <p class="indent">The only use of this spell is to duplicate any cantrip. You don't need to meet any requirements in that cantrip, including costly components. The cantrip simply takes effect.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Marrow of Life" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_MARROW_LIFE">
+        <supports>Bard, Druid, Wizard, Occultist</supports>
+        <description>
+            <p>You infuse the bones of the living with the strength of the dead. One creature of your choice gains 2d8 + your spellcasting ability modifier temporary hit points, and it gains those temporary hit points again at the start of each of its turns.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">ash from a cremation</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Mass Shield of Faith" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_MASS_SHIELD_OF_FAITH">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>A shimmering field appears and surrounds up to five creatures of your choice within range, granting each a +2 bonus to AC for the duration.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="range">30 feet</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a scroll or book of holy text</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Overwhelm" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_OVERWHELM">
+        <supports>Bard, Cleric, Paladin, Sorcerer, Wizard</supports>
+        <description>
+            <p>You make yourself seem mighty and awe-inspiring to certain creatures, filling them with reverential terror. Each creature in a 10-foot cube within range must make a Charisma saving throw. A target automatically succeeds on this saving throw if it can't see you. On a failed save, a target must kneel, becoming prone, and it can't stand for the duration. A creature affected by this spell can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a hand crafted from iron</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Phantom Parlor" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_PHANTOM_PARLOR">
+        <supports>Bard, Wizard</supports>
+        <description>
+            <p>You make actual an imaginary array of splendor, manifesting a quasi-real parlor of your design that fills a cube up to 20-feet wide. The space includes blankets and seating for up to 10 Medium creatures, provided by a combination of sofas, armchairs, lounges, or other furnishings of your choice. A hot fire blazes from a hearth on one side, and the illusory space is comfortably protected against outside weather conditions.</p>
+            <p class="indent">Real food eaten within the space is also affected by the illusion and is made especially rich in flavor. The taste and nature of the food can even change, though that doesn't alter its nutritional value.</p>
+            <p class="indent">The illusion can only affect and be seen by willing creatures of your choice, though real creatures and objects within it are visible as normal. Any element of the illusion that is removed from the space immediately vanishes.</p>
+            <p class="indent">By taking its long rests in this space, a creature affected by the illusion can gain the benefits of a comfortable lifestyle at the price of a poor lifestyle.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 minute</set>
+            <set name="range">5 feet</set>
+            <set name="duration">8 hours</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a red scarf</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    
+    <element name="Zealous Accusation" type="Spell" source="A Plethora of Paladins" id="ID_BUNGM_APOP_SPELL_ZEALOUS_ACCUSATION">
+        <supports>Paladin</supports>
+        <description>
+            <p>You point at one humanoid within range and condemn its actions, ordering it to halt. It must succeed on a Wisdom saving throw or be forced to stand at attention for the duration. An affected creature's movement speed becomes 0, and it must drop any weapon or shield it holds in its hands. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target. On a failure, it again drops any weapon or shield it holds in its hands.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="range">60 feet</set>
+            <set name="duration">1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+</elements>

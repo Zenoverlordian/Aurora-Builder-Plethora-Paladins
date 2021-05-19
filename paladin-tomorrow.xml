@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-tomorrow.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-tomorrow.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Tomorrow" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_TOMORROW">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>The present is theirs. The future, for which I really worked, is mine.</em></p>
+            <p style="text-align:right">—Nikola Tesla</p>
+            <p>To some, the age of a world is marked by its changes: the advancements and progress made in thought, machinery, and life. The club gives way to the spear, then the sword; crude sorceries and pacts give way to wizardly arcana; and the wandering tribe becomes a village, then a city, then an empire. Society itself grows, shaking off yesterday's norms and tinkering with new ways of existence. Those who swear the oath of tomorrow, known as tomorrowbringers, believe in the virtue of this progress and strive to push the world forward. Be they pure machinists or fiery advocates for social rearrangement, these paladins wield powers from their personal vision of the future as they quest to put an end to the most recent chapter of history.</p>
+            <h5>TENETS OF TOMORROW</h5>
+            <p>The tenets of tomorrow are a newly crafted vow, often mutating to better fit the rapidly progressing world tomorrowbringers seek after.</p>
+            <p class="indent"><strong><em>Effect Change.</em></strong> Stagnation is death. Always drive experimentation, new ways of thinking, and cultural progress.</p>
+            <p class="indent"><strong><em>Pure Reason.</em></strong> Mortals should be rational beings. The power of your reason will unlock secrets to greater futures.</p>
+            <p class="indent"><strong><em>Mortals are Limitless.</em></strong> Defy the irrational chains placed upon what mortal civilization can and cannot accomplish. There is a future grandeur just waiting to be achieved.</p>
+            <p class="indent"><strong><em>Kill the Past.</em></strong> The society of the past did not know what you do now. It is a scar reminding mortals of what they thought they couldn't do. Let history die in its cobwebs.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AURA_OF_PROGRESS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_ELECTRIC_FEEDBACK" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AVANT_GUARDIAN" />
+            <h5>WONDROUS INVENTIONS</h5>
+            <p>Not all tomorrowbringers are crafters and inventors, but some are. Perhaps your paladin has devised a wondrous, if peculiar, invention, taking the form of a tiny trinket. You may find such a trinket you like on the following table, or you can work with your Dungeon Master to create one of your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Wondrous Invention</td></tr>
+                </thead>
+                <tr><td>1</td><td>A setup with a metal ramp and ball that loops around itself. Once the ball is set rolling, it doesn't stop.</td></tr>
+                <tr><td>2</td><td>A bottle of aromatic spray that instantly polishes metal on contact.</td></tr>
+                <tr><td>3</td><td>A set of eyeglasses with built-in magnifiers.</td></tr>
+                <tr><td>4</td><td>A metal rod that can propped against the ground at any angle and yet remain balanced and standing.</td></tr>
+                <tr><td>5</td><td>A clockwork sparrow that chirps if the air is poisonous to humanoids.</td></tr>
+                <tr><td>6</td><td>A canteen that can insulate and preserve the temperature of its contents for at least a week.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Those who swear the oath of tomorrow, known as tomorrowbringers, believe in the virtue of this progress and strive to push the world forward.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AURA_OF_PROGRESS" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_ELECTRIC_FEEDBACK" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AVANT_GUARDIAN" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Tomorrow Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>bane, grease</td></tr>
+                <tr><td>5th</td><td>heat metal, locate object</td></tr>
+                <tr><td>9th</td><td>call lightning, tiny servant</td></tr>
+                <tr><td>13th</td><td>fabricate, polymorph</td></tr>
+                <tr><td>17th</td><td>animate objects, reincarnate</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BANE" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GREASE" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_TINY_SERVANT" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FABRICATE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ANIMATE_OBJECTS" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_REINCARNATE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Empower Invention.</em></strong> As a bonus action, you can infuse one melee weapon you hold with electric power, using your Channel Divinity. For 1 minute, the weapon inflicts lightning damage, instead of its normal damage type, and it emits dim light in a 5-foot radius. A creature hit by this weapon can't take reactions until the start of its next turn.</p>
+            <p class="indent">You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</p>
+            <p class="indent"><strong><em>Stroke of Genius.</em></strong> You can use your Channel Divinity as an action to enter a frenzy of miraculous ingenuity. For 10 minutes, if your total for any Intelligence check you make is less than 15, you use 15 in place of the total.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD_EMPOWER_INVENTION" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD_STROKE_GENIUS" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Empower Invention" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD_EMPOWER_INVENTION">
+        <description>
+            <p>As a bonus action, you can infuse one melee weapon you hold with electric power, using your Channel Divinity. For 1 minute, the weapon inflicts lightning damage, instead of its normal damage type, and it emits dim light in a 5-foot radius. A creature hit by this weapon can't take reactions until the start of its next turn.</p>
+            <p class="indent">You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</p>
+        </description>
+        <sheet alt="Empower Invention">
+            <description usage="Channel Divinity" action="Bonus Action">As a bonus action, you can infuse one melee weapon you hold with electric power, using your Channel Divinity. For 1 minute, the weapon inflicts lightning damage, instead of its normal damage type, and it emits dim light in a 5-foot radius. A creature hit by this weapon can't take reactions until the start of its next turn.
+            You can end this effect on your turn (no action required). If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Stroke of Genius" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_CD_STROKE_GENIUS">
+        <description>
+            <p>You can use your Channel Divinity as an action to enter a frenzy of miraculous ingenuity. For 10 minutes, if your total for any Intelligence check you make is less than 15, you use 15 in place of the total.</p>
+        </description>
+        <sheet alt="Stroke of Genius">
+            <description usage="Channel Divinity" action="Action">You can use your Channel Divinity as an action to enter a frenzy of miraculous ingenuity. For 10 minutes, if your total for any Intelligence check you make is less than 15, you use 15 in place of the total.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Progress" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AURA_OF_PROGRESS">
+        <description>
+            <p>Beginning at 7th level, you radiate divine advancement, shielding creatures against stupor and stagnation. You and friendly creatures within 10 feet of you are immune to being paralyzed while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">You and friendly creatures within 10 feet of you are immune to being paralyzed while you are conscious.</description>
+            <description level="18">You and friendly creatures within 30 feet of you are immune to being paralyzed while you are conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Electric Feedback" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_ELECTRIC_FEEDBACK">
+        <description>
+            <p>Starting at 15th level, when a creature hits you with a melee weapon attack, it takes lightning damage equal to your Charisma modifier (minimum 1), if you're not incapacitated.</p>
+        </description>
+        <sheet>
+            <description>When a creature hits you with a melee weapon attack, it takes {{charisma:modifier}} lightning damage (minimum 1), if you're not incapacitated.</description>
+        </sheet>
+    </element>
+
+    <element name="Avant Guardian" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_TOMORROW_AVANT_GUARDIAN">
+        <description>
+            <p>By 20th level, your advocacy for progress manifests in your own visage, fusing flesh, magic, and steel. As an action, you can adopt the following traits:</p>
+            <ul>
+                <li>You grow to a Large size, and your equipment grows with you, doubling your reach and quadrupling your weight.</li>
+                <li>You are immune to poison, psychic, and lightning damage.</li>
+                <li>You are immune to being charmed, exhausted, petrified, or poisoned, and magic can't put you to sleep.</li>
+                <li>You are resistant to nonmagical bludgeoning, piercing, and slashing damage inflicted by weapons that are not made of adamantine.</li>
+                <li>Your melee weapon attacks inflict an additional die of damage and count as magical if they do not already.</li>
+            </ul>
+            <p class="indent">This effect lasts for 1 minute. After using this feature, you must finish a long rest before you can use it again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">As an action, you can adopt the following traits for 1 minute: You grow to a Large size, and your equipment grows with you, doubling your reach and quadrupling your weight. You are immune to poison, psychic, and lightning damage. You are immune to being charmed, exhausted, petrified, or poisoned, and magic can't put you to sleep. You are resistant to nonmagical bludgeoning, piercing, and slashing damage inflicted by weapons that are not made of adamantine. Your melee weapon attacks inflict an additional die of damage and count as magical if they do not already.</description>
+        </sheet>
+    </element>
+    
+</elements>

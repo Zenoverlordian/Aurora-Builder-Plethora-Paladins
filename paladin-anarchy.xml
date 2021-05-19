@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-anarchy.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-anarchy.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Anarchy" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_ANARCHY">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>We need the tonic of wilderness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious… that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature.</em></p>
+            <p style="text-align:right">—Henry David Thoreau, <em>Walden</em></p>
+            <p>Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of Anarchy binds a paladin to protecting freedom and nature against tyranny and control. These paladins believe in the liberty of chaos; rules and authority are dangerous things, nothing more than the chains that separate people from each other and bind them down against their own desires. People are best off trusted to make their own decisions and learn to peacefully coexist in freedom.</p>
+            <p class="indent">In addition to promoting the freedom of individuals, bearers of this oath also encourage the chaos of the natural world. They dislike conquest of the wilderness, preferring that people live with nature, not against it. In the eyes of many of these paladins, the world was as it was meant to be when it was first made, without the changes wrought by mortal hands. Called fantra, after the Sylvan word for guardian, these paladins are keepers of chaos and defenders of disorder, sworn to uphold their values even to bloodshed.</p>
+            <h5>TENETS OF ANARCHY</h5>
+            <p>As advocates against formal rules, there are no uniform tenets for the paladins of Anarchy. Nevertheless, their commitment to chaos can be summarized roughly as follows.</p>
+            <p class="indent"><strong><em>Anarchy.</em></strong> The rigidity of institutions ought be rejected wherever possible. Authority is an agent of separation and oppression, and power is best left in the hands of people.</p>
+            <p class="indent"><strong><em>Reletivism.</em></strong> Good and evil are sophistries and opinions, and the only true measure of right is peaceful, free coexistence. People should determine on their own and amongst each other how they ought to conduct themselves, not lawmakers, kings, or judges.</p>
+            <p class="indent"><strong><em>Earth.</em></strong> The natural world is the ultimate symbol of freedom and coexistence, and it must be protected against those agents of law which would abuse and destroy it.</p>
+            <p class="indent"><strong><em>Autonomy.</em></strong> Use your own judgment and encourage others to use theirs. Commit acts that fulfill your oath and acts that please you. Feel no duty to that which accomplishes neither.</p>
+            <p class="indent"><strong><em>Equity.</em></strong> Respect the autonomy and desires of others, their personal chaos. Acknowledge the inherent worth of each mortal and their freedoms. Hierarchy is always the path to tyranny; equity will always restore freedom.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_AURA_OF_IMPUNITY" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_QUICKFOOTED" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_LIMITLESS_POWER" />
+            <h5>ANARCHIC WITNESSESS</h5>
+            <p>As part of its espousal of natural chaos, the Oath of Anarchy has no formal orders or official fellowships. Because of this, the divine witness before or to whom a fantra swears is often a very personally significant decision. Who did you swear your Oath of Anarchy before? Consider some of the suggestions on the following table, or come up with an idea of your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Anarchic Witness</td></tr>
+                </thead>
+                <tr><td>1</td><td>You stood before a beautiful vista and poured your heart out to the wilds and all its natural treasures.</td></tr>
+                <tr><td>2</td><td>To make your oath, you sought out an ancient druid who guarded the wilderness of your homeland.</td></tr>
+                <tr><td>3</td><td>You and a friend swore the Oath of Anarchy with each other as the only witnesses you needed.</td></tr>
+                <tr><td>4</td><td>A fey queen recognized the valor of your quest, and she sealed your oath as an otherworldly witness.</td></tr>
+                <tr><td>5</td><td>You decided that the only witness you need is yourself. Your commitment is yours alone.</td></tr>
+                <tr><td>6</td><td>A tyrant was your only witness as you swore to someday end his rule and liberate the domain.</td></tr>
+            </table>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CHAOS_VS_LAW" />
+        </description>
+        <sheet display="false">
+            <description>Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of Anarchy binds a paladin to protecting freedom and nature against tyranny and control.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_AURA_OF_IMPUNITY" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_QUICKFOOTED" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_LIMITLESS_POWER" level="20" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CHAOS_VS_LAW" level="3" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Anarchy Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>find familiar, hex</td></tr>
+                <tr><td>5th</td><td>blur, spike growth</td></tr>
+                <tr><td>9th</td><td>fly, speak with plants</td></tr>
+                <tr><td>13th</td><td>conjure woodland beings, guardian of nature</td></tr>
+                <tr><td>17th</td><td>commune with nature, insect plague</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_HEX" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BLUR" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_PLANTS" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Chaos Strike.</em></strong> You can use your Channel Divinity when you hit with a weapon attack to bless your strike with the powers of primordial chaos. The attack inflicts extra damage equal to 1d6 + half your paladin level. The number on the d6 determines the type of the extra damage. A target that takes the damage must make a Constitution saving throw or also experience an additional effect based on the damage type.</p>
+            <h5>Damage Type of Chaos Strike</h5>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Damage Type</td><td>Extra Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>Acid</td><td>The target takes acid damage equal to half your paladin level at the end of its next turn.</td></tr>
+                <tr><td>2</td><td>Cold</td><td>The target's speed is reduced to 0 until the end of its next turn.</td></tr>
+                <tr><td>3</td><td>Fire</td><td>The target is blinded until the end of its next turn.</td></tr>
+                <tr><td>4</td><td>Lightning</td><td>The target is incapacitated until the end of its next turn.</td></tr>
+                <tr><td>5</td><td>Poison</td><td>The target is poisoned until the end of its next turn.</td></tr>
+                <tr><td>6</td><td>Thunder</td><td>The target is knocked prone and 15 feet directly away from you.</td></tr>
+            </table>
+            <p class="indent"><strong><em>Primeval Speech.</em></strong> By calling on the land's natural forces, you can commune with beasts using your Channel Divinity. As an action, you target a beast within 30 feet of you that you can see. For the next ten minutes, you can comprehend and verbally communicate with this beast. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD_CHAOS" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD_PRIMEVAL" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Chaos Strike" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD_CHAOS">
+        <description>
+            <p>You can use your Channel Divinity when you hit with a weapon attack to bless your strike with the powers of primordial chaos. The attack inflicts extra damage equal to 1d6 + half your paladin level. The number on the d6 determines the type of the extra damage. A target that takes the damage must make a Constitution saving throw or also experience an additional effect based on the damage type.</p>
+            <h5>Damage Type of Chaos Strike</h5>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Damage Type</td><td>Extra Effect</td></tr>
+                </thead>
+                <tr><td>1</td><td>Acid</td><td>The target takes acid damage equal to half your paladin level at the end of its next turn.</td></tr>
+                <tr><td>2</td><td>Cold</td><td>The target's speed is reduced to 0 until the end of its next turn.</td></tr>
+                <tr><td>3</td><td>Fire</td><td>The target is blinded until the end of its next turn.</td></tr>
+                <tr><td>4</td><td>Lightning</td><td>The target is incapacitated until the end of its next turn.</td></tr>
+                <tr><td>5</td><td>Poison</td><td>The target is poisoned until the end of its next turn.</td></tr>
+                <tr><td>6</td><td>Thunder</td><td>The target is knocked prone and 15 feet directly away from you.</td></tr>
+            </table>
+        </description>
+        <sheet alt="Chaos Strike">
+            <description usage="Channel Divinity">You can use your Channel Divinity when you hit with a weapon attack to bless your strike with the powers of primordial chaos. The attack inflicts extra damage equal to 1d6 + {{level:paladin:half}}. The number on the d6 determines the type of the extra damage. A target that takes the damage must make a Constitution saving throw or also experience an additional effect based on the damage type.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Primeval Speech" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CD_PRIMEVAL">
+        <description>
+            <p>By calling on the land's natural forces, you can commune with beasts using your Channel Divinity. As an action, you target a beast within 30 feet of you that you can see. For the next ten minutes, you can comprehend and verbally communicate with this beast. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day.</p>
+        </description>
+        <sheet alt="Primeval Speech">
+            <description usage="Channel Divinity" action="Action">As an action, you target a beast within 30 feet of you that you can see. For the next ten minutes, you can comprehend and verbally communicate with this beast. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Impunity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_AURA_OF_IMPUNITY">
+        <description>
+            <p>Starting at 7th level, you and friendly creatures within 10 feet of you are unaffected by magical and nonmagical difficult terrain while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">You and friendly creatures within 10 feet of you are unaffected by magical and nonmagical difficult terrain while you are conscious.</description>
+            <description level="18">You and friendly creatures within 30 feet of you are unaffected by magical and nonmagical difficult terrain while you are conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Quickfooted" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_QUICKFOOTED">
+        <description>
+            <p>Starting at 15th level, when you use your action to Dash or Disengage, you can make a single weapon attack as a bonus action.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action">When you use your action to Dash or Disengage, you can make a single weapon attack as a bonus action.</description>
+        </sheet>
+    </element>
+
+    <element name="Limitless Power" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_LIMITLESS_POWER">
+        <description>
+            <p>By 20th level, you can use your action to break free of all bonds and restrictions, adopting a mantle of sovereignty. For 1 minute, you gain a flying speed of 90 feet, experience the effects of the freedom of movement spell, and are immune to enchantment spells you do not choose to be affected by. You can also move through other creatures and objects, and you take 1d10 force damage if you end your turn inside an object. Additionally, you ignore a creature's resistance or immunity to any damage you inflict on it.</p>
+            <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">For 1 minute, you gain a flying speed of 90 feet, experience the effects of the freedom of movement spell, and are immune to enchantment spells you do not choose to be affected by. You can also move through other creatures and objects, and you take 1d10 force damage if you end your turn inside an object. Additionally, you ignore a creature's resistance or immunity to any damage you inflict on it.</description>
+        </sheet>
+    </element>
+
+    <element name="Chaos Versus Law" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_CHAOS_VS_LAW">
+        <description>
+            <p>Inspired by the Fantra class introduced in Dragon #106, the Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. This is reflected in the original features of the Fantra class, which included detection of and bonus damage against lawful creatures.</p>
+            <p class="indent">For players and DMs interested in similar and other mechanics to further the theme of this Sacred Oath, the following optional features can be included as part of the Oath of Anarchy when it's taken or as part of the paladin's progression starting from 1st level:</p>
+            <h5>DANCES WITH WOLVES</h5>
+            <p>When you cast the find familiar or find steed spells, you can choose for the summoned creature to be a beast instead of a celestial, fey, or fiend.</p>
+            <h5>DETECT LAW</h5>
+            <p>When you use your Divine Sense, you detect the presence of constructs, fiends, and elementals instead of celestials, fiends, and undead.</p>
+            <h5>STRIKE THE INFLEXIBLE</h5>
+            <p>The bite of your blows is focused not on the unholy, but on the obdurate. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against constructs and elementals instead of fiends and undead.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Chaos Versus Law" supports="BunGM Chaos Vs Law" number="3" optional="true" />
+        </rules>
+    </element>
+    <element name="Dances with Wolves" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_DANCE_WOLF">
+        <supports>BunGM Chaos Vs Law</supports>
+        <description>
+            <p>When you cast the find familiar or find steed spells, you can choose for the summoned creature to be a beast instead of a celestial, fey, or fiend.</p>
+        </description>
+        <sheet>
+            <description>When you cast the find familiar or find steed spells, you can choose for the summoned creature to be a beast instead of a celestial, fey, or fiend.</description>
+        </sheet>
+    </element>
+    <element name="Detect Law" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_DETECT_LAW">
+        <supports>BunGM Chaos Vs Law</supports>
+        <description>
+            <p>When you use your Divine Sense, you detect the presence of constructs, fiends, and elementals instead of celestials, fiends, and undead.</p>
+        </description>
+        <sheet>
+            <description>When you use your Divine Sense, you detect the presence of constructs, fiends, and elementals instead of celestials, fiends, and undead.</description>
+        </sheet>
+    </element>
+    <element name="Strike the Inflexible" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_ANARCHY_STRIKE_INFLEXIBLE">
+        <supports>BunGM Chaos Vs Law</supports>
+        <description>
+            <p>The bite of your blows is focused not on the unholy, but on the obdurate. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against constructs and elementals instead of fiends and undead.</p>
+        </description>
+        <sheet>
+            <description>The bite of your blows is focused not on the unholy, but on the obdurate. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against constructs and elementals instead of fiends and undead.</description>
+        </sheet>
+    </element>
+    
+</elements>

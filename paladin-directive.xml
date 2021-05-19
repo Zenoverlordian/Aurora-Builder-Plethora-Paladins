@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-directive.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-directive.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of the Directive" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_DIRECTIVE">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>If you were to insist I was a robot, you might not consider me capable of love in some mystic human sense, but you would not be able to distinguish my reactions from that which you would call love—so what difference would it make?</em></p>
+            <p style="text-align:right">—Isaac Asimov, <em>Foundation's Edge</em></p>
+            <p>At the center of the Oath of the Directive is this principle: heroes are made, not born. Paladins that bear this oath are called mechaknights and android masters, and they live up to the name. Some are visibly mechanical marvels, pistons primed and forged together. Others are more akin to miracles, wrought in perfect similitude to life itself excepting a clockwork heart or a brain of gears and parchment code. They are built for a variety of purposes, but all are unified by both their make and manner: artificial life dedicated to fulfilling the righteous directives assigned by their creators.</p>
+            <h5>TENETS OF THE DIRECTIVE</h5>
+            <p>The tenets of the Directive, also known as the Automaton Principles, are central to the code of every android master. The tenets are listed in descending order of importance, demonstrating which are prioritized if ever they conflict.</p>
+            <p class="indent"><strong><em>True to the Maker.</em></strong>  I will be loyal to they whom created me and heed their instruction. In their absence, I act in accordance with my understanding of what they would want.</p>
+            <p class="indent"><strong><em>Fair to the Stranger.</em></strong> I will avoid undue harm to other sentient lifeforms inasmuch as I am able to do so while still meaningfully pursuing my directive.</p>
+            <p class="indent"><strong><em>One with My Purpose.</em></strong> I will preserve my own existence according to my ability, unless my loss is necessary to the directive's success. Otherwise, I would doom it to failure.</p>
+            <p class="indent"><strong><em>Thought to All Conduct.</em></strong>  I will be rational and logical in all my conduct. Mistakes are acceptable—for no craft can be perfect—but willful misdeeds are not.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_AURA_OF_DIRECTION" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_MACHINE_LEARNING" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_TRUE_ANDROID" />
+            <h5>DIRECTIVE COROLLARIES</h5>
+            <p>It is common for paladins of the Oath of the Directive to bear unique traits of form or personality incident to their artificial origins. Whether these are features or bugs may well be a personal question. Consider choosing from or rolling on the following table to pick a unique quirk for your character, or use it as inspiration to create your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d12</td><td>Directive Corollary</td></tr>
+                </thead>
+                <tr><td>1</td><td>Few things are more sacred to you than statistics.</td></tr>
+                <tr><td>2</td><td>You insist to others that you don't sleep. You "enter low power mode."</td></tr>
+                <tr><td>3</td><td>The only thing you remember about your creator is the directive they gave to you. The second-greatest longing of your heart is to someday meet them.</td></tr>
+                <tr><td>4</td><td>Statement: Your verbal communications are generally preceded with relevant descriptions of their nature.</td></tr>
+                <tr><td>5</td><td>The Automaton Principles require that you avoid unnecessary harm to meatbags, but they say nothing about calling them by an accurate name.</td></tr>
+                <tr><td>6</td><td>You're convinced no one can tell you're an automaton or notice your bionic limbs, oil blood, and static hair.</td></tr>
+                <tr><td>7</td><td>Jokes tend to be lost on you.</td></tr>
+                <tr><td>8</td><td>In secret, you fantasize about violating your directive.</td></tr>
+                <tr><td>9</td><td>You consider generalizations of the Automaton Principles obscene (or enlightened).</td></tr>
+                <tr><td>10</td><td>You were built to replace someone your creator lost.</td></tr>
+                <tr><td>11</td><td>You live for technicalities.</td></tr>
+                <tr><td>12</td><td>It was only recently that you learned you weren't fully mortal, and it's still difficult to come to grips with.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Paladins that bear this oath are called mechaknights and android masters, and they live up to the name.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_AURA_OF_DIRECTION" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_MACHINE_LEARNING" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_TRUE_ANDROID" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of the Directive Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>shield of faith, thunderwave</td></tr>
+                <tr><td>5th</td><td>scorching ray, see invisibility</td></tr>
+                <tr><td>9th</td><td>feign death, protection from energy</td></tr>
+                <tr><td>13th</td><td>arcane eye, divination</td></tr>
+                <tr><td>17th</td><td>antilife shell, wall of force</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FEIGN_DEATH" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ANTILIFE_SHELL" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Firewall.</em></strong> When you fail a Wisdom, Intelligence, or Charisma saving throw, you can use your Channel Divinity to reroll the save, possibly changing the failure to a success.</p>
+            <p class="indent"><strong><em>Overclock.</em></strong> You can use your Channel Divinity as a bonus action to accelerate your processing ability beyond your normal limits. For 1 minute, or until you are unconscious, your movement speed increases by a number of feet equal to 5 x your Charisma modifier (minimum of 5 feet), and opportunity attacks targeting you are made at disadvantage. When you use this Channel Divinity option and at the start of each of your turns while under its effect, you gain temporary hit points equal to your Charisma modifier (minimum 1).</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD_FIREWALL" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD_OVERCLOCK" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Firewall" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD_FIREWALL">
+        <description>
+            <p>When you fail a Wisdom, Intelligence, or Charisma saving throw, you can use your Channel Divinity to reroll the save, possibly changing the failure to a success.</p>
+        </description>
+        <sheet alt="Firewall">
+            <description usage="Channel Divinity">When you fail a Wisdom, Intelligence, or Charisma saving throw, you can use your Channel Divinity to reroll the save, possibly changing the failure to a success.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Overclock" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_CD_OVERCLOCK">
+        <description>
+            <p>You can use your Channel Divinity as a bonus action to accelerate your processing ability beyond your normal limits. For 1 minute, or until you are unconscious, your movement speed increases by a number of feet equal to 5 x your Charisma modifier (minimum of 5 feet), and opportunity attacks targeting you are made at disadvantage. When you use this Channel Divinity option and at the start of each of your turns while under its effect, you gain temporary hit points equal to your Charisma modifier (minimum 1).</p>
+        </description>
+        <sheet alt="Overclock">
+            <description usage="Channel Divinity" action="Bonus Action">You can use your Channel Divinity as a bonus action to accelerate your processing ability beyond your normal limits. For 1 minute, or until you are unconscious, your movement speed increases by {{overclock:speed}} feet (minimum of 5 feet), and opportunity attacks targeting you are made at disadvantage. When you use this Channel Divinity option and at the start of each of your turns while under its effect, you gain {{charisma:modifier}} temporary hit points (minimum 1).</description>
+        </sheet>
+        <rules>
+            <stat name="overclock:speed" value="charisma:modifier" />
+            <stat name="overclock:speed" value="charisma:modifier" />
+            <stat name="overclock:speed" value="charisma:modifier" />
+            <stat name="overclock:speed" value="charisma:modifier" />
+            <stat name="overclock:speed" value="charisma:modifier" />
+        </rules>
+    </element>
+
+    <element name="Aura of Direction" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_AURA_OF_DIRECTION">
+        <description>
+            <p>By 7th level, nothing can keep you and your allies from fulfilling your directive. While you are conscious, the movement speeds of you and friendly creatures within 10 feet of you can't be reduced by magic.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you are conscious, the movement speeds of you and friendly creatures within 10 feet of you can't be reduced by magic.</description>
+            <description level="18">While you are conscious, the movement speeds of you and friendly creatures within 30 feet of you can't be reduced by magic.</description>
+        </sheet>
+    </element>
+
+    <element name="Machine Learning" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_MACHINE_LEARNING">
+        <description>
+            <p>Beginning at 15th level, when you miss a creature with a weapon attack, you gain advantage on the next weapon attack you make targeting it within 1 minute.</p>
+            <p class="indent">Also, you only need to train for half as long as normal to learn a new language or gain a new tool proficiency.</p>
+        </description>
+        <sheet>
+            <description>When you miss a creature with a weapon attack, you gain advantage on the next weapon attack you make targeting it within 1 minute. Also, you only need to train for half as long as normal to learn a new language or gain a new tool proficiency.</description>
+        </sheet>
+    </element>
+
+    <element name="True Android" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_DIRECTIVE_TRUE_ANDROID">
+        <description>
+            <p>At 20th level, you have perfected all your processes as the archetypal automaton. You can enter an overdrive state as an action, gaining the following benefits for 1 minute:</p>
+            <ul>
+                <li>Your walking speed increases by 30 feet, and you can't be targeted with opportunity attacks.</li>
+                <li>No effect can knock you prone or move you, unless you allow it.</li>
+                <li>You are immune to being charmed or stunned.</li>
+                <li>When you take the Attack action, you can make one additional attack as part of the action.</li>
+            </ul>
+            <p class="indent">After using this feature, you must finish a long rest before you can do so again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You can enter an overdrive state as an action, gaining the following benefits for 1 minute: Your walking speed increases by 30 feet, and you can't be targeted with opportunity attacks. No effect can knock you prone or move you, unless you allow it. You are immune to being charmed or stunned. When you take the Attack action, you can make one additional attack as part of the action.</description>
+        </sheet>
+    </element>
+    
+</elements>

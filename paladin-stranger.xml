@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-strangers.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-strangers.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Strangers" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_STRANGERS">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>I believe that to have a friend, a man must be one. That all men are created equal and that everyone has within himself the power to make this a better world. That God put the firewood there but that every man must gather and light it himself. In being prepared physically, mentally, and morally to fight when necessary for that which is right. That a man should make the most of what equipment he has.</em></p>
+            <p style="text-align:right">—Fran Striker, <em>The Lone Ranger Creed</em></p>
+            <p>While most think of paladins as knightly and iconic, even unhidden or obvious, the chivalrous mavericks who swear the Oath of Strangers are a different sort. At home on the road and masterful with their black powder artillery, these warriors favor a life of modesty, if not anonymity, and uphold the common man's honesty and the loyal friend's sidearm as their ideals. In yearning to uphold righteousness and justice in their lawless frontier homes, few hesitate to step in when needed to rescue the helpless or thwart the wicked. Called musketeers, pistoleros, and white hats, these paladins wield firearms as a champion's sword and listen to pounding gunfire as their victory hymn.</p>
+            <h5>TENETS OF STRANGERS</h5>
+            <p>Traditionally, the tenets of the Oath of Strangers are only written down on the hearts of those who mind them.</p>
+            <p class="indent"><strong><em>Brotherly.</em></strong> Your friend eats and lives before you do. Watch over your own, and be true to them at all times.</p>
+            <p class="indent"><strong><em>Candid.</em></strong> Save your breath for breathing. Keep your promises, and make every word out of your mouth an honest one.</p>
+            <p class="indent"><strong><em>Modest.</em></strong> You're all guts and no gurgle. Save stories for when folks ask. Share your experiences, not tall tales.</p>
+            <p class="indent"><strong><em>Moral.</em></strong> Walking the hard path is virtue. Don't yield to what's wrong for anything. You don't fight because it's easy or fun.</p>
+            <p class="indent"><strong><em>Pleasant.</em></strong>  It doesn't matter if it's the best or worst day of your life. Retain tact and keep cheer. Only quitters complain.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_GRIT" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_QUICKDRAW" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_THE_MYSTERIOUS_STRANGER" />
+            <h5>STRANGE QUIRKS</h5>
+            <p>The unique path of the Oath of Strangers can leave a mark on those who walk it. Consider choosing from or rolling on the following table to pick a unique quirk for your character, or use it as inspiration to create your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d12</td><td>Trait</td></tr>
+                </thead>
+                <tr><td>1</td><td>You have trouble sleeping without a weapon in hand.</td></tr>
+                <tr><td>2</td><td>You're usually the last person to fall asleep at night, as well as the first one to wake up in the morning.</td></tr>
+                <tr><td>3</td><td>You have a knack for wearing a hat just right so that it casts a shadow across only your eyes.</td></tr>
+                <tr><td>4</td><td>You'll die before you tell a lie, and you'll kill before you listen to one.</td></tr>
+                <tr><td>5</td><td>The sacred weapon you conjure looks different each time you summon it (or it looks the same).</td></tr>
+                <tr><td>6</td><td>You speak with a charming accent none of your companions have ever heard before.</td></tr>
+                <tr><td>7</td><td>You're frugal almost to the point of ascetism.</td></tr>
+                <tr><td>8</td><td>You can count the number of people who know your real name on one hand. You try to keep it that way.</td></tr>
+                <tr><td>9</td><td>Your hat goes wherever you go—no exceptions.</td></tr>
+                <tr><td>10</td><td>You learned your combat skills from the wrong crowd. You hope no "old friends" ever recognize you.</td></tr>
+                <tr><td>11</td><td>Whenever you get either antsy or cocky, you have a habit of whirling a weapon around in your hand.</td></tr>
+                <tr><td>12</td><td>For you, nothing makes a meal richer or a drink sweeter than hearing or sharing a true story.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>While most think of paladins as knightly and iconic, even unhidden or obvious, the chivalrous mavericks who swear the Oath of Strangers are a different sort. At home on the road and masterful with their black powder artillery, these warriors favor a life of modesty, if not anonymity, and uphold the common man's honesty and the loyal friend's sidearm as their ideals.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_GRIT" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_QUICKDRAW" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_THE_MYSTERIOUS_STRANGER" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Strangers Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>cause fear, guiding bolt</td></tr>
+                <tr><td>5th</td><td>Nystul's magic aura, silence</td></tr>
+                <tr><td>9th</td><td>catnap, conjure barrage</td></tr>
+                <tr><td>13th</td><td>charm monster, freedom of movement</td></tr>
+                <tr><td>17th</td><td>conjure volley, swift quiver</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_CATNAP" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_BARRAGE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_CHARM_MONSTER" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_CONJURE_VOLLEY" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SWIFT_QUIVER" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Divine Snipe.</em></strong> Your righteous fervor burns hotter than even black powder. As an action, you use your Channel Divinity to conjure into your free hands a number of magical bullets equal to 2 x your Charisma modifier (minimum of 2) and a sacred weapon which takes the form of either a musket or a pistol with which you are proficient (your choice), as described on page 268 of the Dungeon Master's Guide. As an action, you can make a special ranged weapon attack made using a firearm with one of these bullets. On a hit, the attack inflicts extra radiant damage equal to the weapon's damage die, and it can benefit from your Divine Smite and Improved Divine Smite features. The bullet then dissipates in a flash of holy light.</p>
+            <p class="indent">When you no longer have any of this ammunition, use this Channel Divinity option again, or finish a short or long rest, the sacred weapon and bullets vanish.</p>
+            <p class="indent"><strong><em>Trickshot.</em></strong> When you hit with a ranged attack made using a weapon that has the loading property, you can use your Channel Divinity to perform an exceptional maneuver. The target experiences one of the following effects of your choice:</p>
+            <ul>
+                <li><strong>Disarming Shot</strong> The target must succeed on a Strength saving throw or drop 1 item it is holding of your choice.</li>
+                <li><strong>Gutshot</strong> The target must succeed on a Constitution saving throw or be poisoned until the end of its next turn.</li>
+                <li><strong>Frightful Shot</strong> The target must succeed on a Wisdom saving throw or use its reaction to move as far as its movement speed allows directly away from you.</li>
+                <li><strong>Tripshot</strong> The target must succeed on a Dexterity saving throw or be knocked prone.</li>
+                <li><strong>Scoot Unattended Object</strong> If the target is a tiny object that is not being worn or carried, it moves up to 20 feet in any direction of your choice. Otherwise, the trickshot fails.</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD_DIVINE_SNIPE" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD_TRICKSHOT" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Divine Snipe" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD_DIVINE_SNIPE">
+        <description>
+            <p>Your righteous fervor burns hotter than even black powder. As an action, you use your Channel Divinity to conjure into your free hands a number of magical bullets equal to 2 x your Charisma modifier (minimum of 2) and a sacred weapon which takes the form of either a musket or a pistol with which you are proficient (your choice), as described on page 268 of the Dungeon Master's Guide. As an action, you can make a special ranged weapon attack made using a firearm with one of these bullets. On a hit, the attack inflicts extra radiant damage equal to the weapon's damage die, and it can benefit from your Divine Smite and Improved Divine Smite features. The bullet then dissipates in a flash of holy light.</p>
+            <p class="indent">When you no longer have any of this ammunition, use this Channel Divinity option again, or finish a short or long rest, the sacred weapon and bullets vanish.</p>
+        </description>
+        <sheet alt="Divine Snipe">
+            <description usage="Channel Divinity" action="Action">As an action, you use your Channel Divinity to conjure into your free hands {{divine snipe:num}} magical bullets (minimum of 2) and a sacred weapon which takes the form of either a musket or a pistol with which you are proficient (your choice), as described on page 268 of the Dungeon Master's Guide. As an action, you can make a special ranged weapon attack made using a firearm with one of these bullets. On a hit, the attack inflicts extra radiant damage equal to the weapon's damage die, and it can benefit from your Divine Smite and Improved Divine Smite features. The bullet then dissipates in a flash of holy light.
+            When you no longer have any of this ammunition, use this Channel Divinity option again, or finish a short or long rest, the sacred weapon and bullets vanish.</description>
+        </sheet>
+        <rules>
+            <stat name="divine snipe:num" value="charisma:modifier" />
+            <stat name="divine snipe:num" value="charisma:modifier" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Trickshot" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_CD_TRICKSHOT">
+        <description>
+            <p>When you hit with a ranged attack made using a weapon that has the loading property, you can use your Channel Divinity to perform an exceptional maneuver. The target experiences one of the following effects of your choice:</p>
+            <ul>
+                <li><strong>Disarming Shot</strong> The target must succeed on a Strength saving throw or drop 1 item it is holding of your choice.</li>
+                <li><strong>Gutshot</strong> The target must succeed on a Constitution saving throw or be poisoned until the end of its next turn.</li>
+                <li><strong>Frightful Shot</strong> The target must succeed on a Wisdom saving throw or use its reaction to move as far as its movement speed allows directly away from you.</li>
+                <li><strong>Tripshot</strong> The target must succeed on a Dexterity saving throw or be knocked prone.</li>
+                <li><strong>Scoot Unattended Object</strong> If the target is a tiny object that is not being worn or carried, it moves up to 20 feet in any direction of your choice. Otherwise, the trickshot fails.</li>
+            </ul>
+        </description>
+        <sheet alt="Trickshot">
+            <description usage="Channel Divinity">When you hit with a ranged attack made using a weapon that has the loading property, you can use your Channel Divinity to perform an exceptional maneuver. The target experiences one of the following effects of your choice:
+            <strong>Disarming Shot</strong> The target must succeed on a Strength saving throw or drop 1 item it is holding of your choice.
+            <strong>Gutshot</strong> The target must succeed on a Constitution saving throw or be poisoned until the end of its next turn.
+            <strong>Frightful Shot</strong> The target must succeed on a Wisdom saving throw or use its reaction to move as far as its movement speed allows directly away from you.
+            <strong>Tripshot</strong> The target must succeed on a Dexterity saving throw or be knocked prone.
+            <strong>Scoot Unattended Object</strong> If the target is a tiny object that is not being worn or carried, it moves up to 20 feet in any direction of your choice. Otherwise, the trickshot fails.</description>
+        </sheet>
+    </element>
+
+    <element name="Grit" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_GRIT">
+        <description>
+            <p>Starting at 7th level, your quiet charm and serendipitous daring put you in the perfect position to make a comeback. When you have no uses left of your Channel Divinity feature, you regain 1 use of it when you score a critical hit or reduce a creature to 0 hit points.</p>
+            <p class="indent">You can use this feature twice, and you regain all expended uses whenever you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="2/Short Rest">When you have no uses left of your Channel Divinity feature, you regain 1 use of it when you score a critical hit or reduce a creature to 0 hit points.</description>
+        </sheet>
+    </element>
+
+    <element name="Quickdraw" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_QUICKDRAW">
+        <description>
+            <p>By 15th level, no one moves faster than your quick reflexes. You can't be surprised while you're conscious, and you add your Charisma modifier to initiative checks (minimum 1).</p>
+        </description>
+        <sheet>
+            <description>You can't be surprised while you're conscious, and you add {{charisma:modifier}} to initiative checks (minimum 1).</description>
+        </sheet>
+    </element>
+
+    <element name="The Mysterious Stranger" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_STRANGERS_THE_MYSTERIOUS_STRANGER">
+        <description>
+            <p>At 20th level, you can become an anonymous avatar of frontier justice, sworn to bring order to chaos and evil to heel. As an action, you gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>You ignore the loading property of a sacred weapon conjured using your Divine Snipe, and you can make the special ranged weapon attack using it as an attack instead of as an action.</li>
+                <li>You can use Divine Snipe as a bonus action, and using Divine Snipe or Trickshot doesn't expend a use of your Channel Divinity.</li>
+                <li>You are invisible to any hostile creature until you attack it, cast a spell on it, or otherwise harm it, at which point you become visible to that creature.</li>
+            </ul>
+            <p class="indent">You must finish a long rest before you can do this again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">As an action, you gain the following benefits for 1 minute: You ignore the loading property of a sacred weapon conjured using your Divine Snipe, and you can make the special ranged weapon attack using it as an attack instead of as an action. You can use Divine Snipe as a bonus action, and using Divine Snipe or Trickshot doesn't expend a use of your Channel Divinity. You are invisible to any hostile creature until you attack it, cast a spell on it, or otherwise harm it, at which point you become visible to that creature.</description>
+        </sheet>
+    </element>
+    
+</elements>

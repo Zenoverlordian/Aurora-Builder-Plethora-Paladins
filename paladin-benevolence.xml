@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-benevolence.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-benevolence.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Benevolence" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_BENEVOLENCE">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>If I am a princess in rags and tatters, I can be a princess inside. It would be easy to be a princess if I were dressed in cloth of gold, but it is a great deal more of a triumph to be one all the time when no one knows it.</em></p>
+            <p style="text-align:right">—Frances Hodgson Burnett, <em>A Little Princess</em></p>
+            <p>A true Oath of Benevolence is rare in the world, for it is both the humblest and noblest of sacred vows. Sworn only by those at their lowest—whether from birth or through reversal of fortune—it is a determination by the paladin to give to others that goodness which has been refused to them. These paladins may starve nigh to death, yet give their last piece of bread to the beggar; may weep from vulgar treatment, yet give polite word and kind remark; may long for all that is lost from their life, yet give everything to soothe another in pain.</p>
+            <p class="indent">Called lightbearers and dreamknights, bearers of the Oath of Benevolence find comfort in hope and purpose in love, acting as friends to all living things: outcast, royal, beast, and mortal alike. Many are storytellers, using fairytale and make-believe as a way to escape sorrowful reality, if but for a moment. For these, choosing to take up arms often comes after seeing the painful aftermath of wicked brutality, moving them to become champions of the underserved and forgotten. Whether they struggle to live or simply once did, all such paladins move among the downtrodden as one among equals and friends, an ally to soothe the pains they know so well.</p>
+            <h5>TENETS OF BENEVOLENCE</h5>
+            <p>To swear the Oath of Benevolence, a paladin consciously chooses to follow its tenets in spite of—or even because of—those hardships they have experienced.</p>
+            <p class="indent"><strong><em>Kindness.</em></strong> Everyone deserves a good turn and tender regard. Keep a prayer in your heart even for the wicked.</p>
+            <p class="indent"><strong><em>Grace.</em></strong> Be stronger than the pain that surrounds you. A soft answer may not turn away wrath, but it is strength to you and inspiration to friends. You can't be torn or broken.</p>
+            <p class="indent"><strong><em>Dignity.</em></strong> Love of others includes respect for self. Always be certain of your own worth and value as a person.</p>
+            <p class="indent"><strong><em>Hope.</em></strong> The worst never really comes. Even if it does, believe and persevere. This shall pass, and you shall live.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_AURA_OF_BENEVOLENCE" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_TIRELESS_SPIRIT" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_INNER_MAJESTY" />
+            <h5>BENEVOLENT ORIGINS</h5>
+            <p>The power of the Oath of Benevolence comes from the sacred irony of those who make it. In order to swear it, your paladin must've in life experienced some kind of terrible destitution and from there nevertheless vow themselves to selflessness and gracious living. How did your paladin conduct themselves prior to taking on the oath? Maybe there was one or a few special experiences by which they crystallized their rightoues resolve. The following table includes some ideas, and you can also create your own.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Benevolent Origin</td></tr>
+                </thead>
+                <tr><td>1</td><td>It was a rain-soaked day on which you had barely managed to beg yourself a few buns of bread. And yet you couldn't help but give almost all of them to another hungry child you saw that day.</td></tr>
+                <tr><td>2</td><td>When the other scullery maid in your home was unjustly scolded and derided, you would always creep into her room to try and offer her comfort.</td></tr>
+                <tr><td>3</td><td>Even though the wintry air was just as cold on your skin, you chose to give your sweater to a stranger you saw freezing outside.</td></tr>
+                <tr><td>4</td><td>Wicked men robbed you of all your fortune. Yet that gave you all the more reason to return the lost coin purse you found to its rightful owner.</td></tr>
+                <tr><td>5</td><td>No matter how much people taunted you, no matter how much willpower it took, you've always tried to speak to everyone with respect and kindness.</td></tr>
+                <tr><td>6</td><td>A small rat that shared your attic home became a dear friend when you chose to spare a few morsels of food for him and his squeaking family.</td></tr>
+            </table>
+        </description>
+        <sheet display="false">
+            <description>Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of Anarchy binds a paladin to protecting freedom and nature against tyranny and control.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_AURA_OF_BENEVOLENCE" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_TIRELESS_SPIRIT" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_INNER_MAJESTY" level="20" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Benevolence Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>animal friendship, shield of faith</td></tr>
+                <tr><td>5th</td><td>enhance ability, lesser restoration</td></tr>
+                <tr><td>9th</td><td>phantom parlor, protection from energy</td></tr>
+                <tr><td>13th</td><td>empathy link, stoneskin</td></tr>
+                <tr><td>17th</td><td>dawn, greater restoration</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_PHANTOM_PARLOR" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_EMPATHY_LINK" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_DAWN" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>A Moment's Rest.</em></strong> You can use your Channel Divinity over the course of 1 minute to provide comfort and respite to those around you through kind ministration and uplifting words or stories. Each conscious creature of your choice within 30 feet of you can regain hit points by spending one hit die, and a creature that does so gains temporary hit points equal to your Charisma modifier (minimum 1).</p>
+            <p class="indent"><strong><em>Honor in Silence.</em></strong> You can use your Channel Divinity as an action to resolve to never give answer to cruelty, and your dignified silence is a rebuke to foes. For 1 minute, you shed dim light for 5 feet, and no effect can force you to speak. When a hostile creature damages you during this time, it takes radiant damage equal to your Charisma modifier (minimum 1). You can choose to end this effect on your turn (no action required), and it ends early if you fall unconscious.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD_MOMENTS_REST" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD_HONOR_SILENCE" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: A Moment's Rest" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD_MOMENTS_REST">
+        <description>
+            <p>You can use your Channel Divinity over the course of 1 minute to provide comfort and respite to those around you through kind ministration and uplifting words or stories. Each conscious creature of your choice within 30 feet of you can regain hit points by spending one hit die, and a creature that does so gains temporary hit points equal to your Charisma modifier (minimum 1).</p>
+        </description>
+        <sheet alt="A Moment's Rest">
+            <description usage="Channel Divinity">You can use your Channel Divinity over the course of 1 minute to provide comfort and respite to those around you through kind ministration and uplifting words or stories. Each conscious creature of your choice within 30 feet of you can regain hit points by spending one hit die, and a creature that does so gains {{charisma:modifier}} temporary hit points (minimum 1).</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Honor in Silence" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_CD_HONOR_SILENCE">
+        <description>
+            <p>By calling on the land's natural forces, you can commune with beasts using your Channel Divinity. As an action, you target a beast within 30 feet of you that you can see. For the next ten minutes, you can comprehend and verbally communicate with this beast. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day.</p>
+        </description>
+        <sheet alt="Honor in Silence">
+            <description usage="Channel Divinity" action="Action">You can use your Channel Divinity as an action to resolve to never give answer to cruelty, and your dignified silence is a rebuke to foes. For 1 minute, you shed dim light for 5 feet, and no effect can force you to speak. When a hostile creature damages you during this time, it takes {{charisma:modifier}} radiant damage (minimum 1). You can choose to end this effect on your turn (no action required), and it ends early if you fall unconscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Benevolence" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_AURA_OF_BENEVOLENCE">
+        <description>
+            <p>Starting at 7th level, you and your companions are able to find hope in solidarity to overcome even the darkest trials. While you or at least one friendly creature within 10 feet of you is conscious, you and friendly creatures within 10 feet of you can choose to become stable when making a death saving throw.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">While you or at least one friendly creature within 10 feet of you is conscious, you and friendly creatures within 10 feet of you can choose to become stable when making a death saving throw.</description>
+            <description level="18">While you or at least one friendly creature within 30 feet of you is conscious, you and friendly creatures within 30 feet of you can choose to become stable when making a death saving throw.</description>
+        </sheet>
+    </element>
+
+    <element name="Tireless Spirit" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_TIRELESS_SPIRIT">
+        <description>
+            <p>By 15th level, you can persevere beyond mortal limits. You're immune to the effects of exhaustion, except death. Magic can't force you to sleep or reduce your movement speed.</p>
+        </description>
+        <sheet>
+            <description>You're immune to the effects of exhaustion, except death. Magic can't force you to sleep or reduce your movement speed.</description>
+        </sheet>
+    </element>
+
+    <element name="Inner Majesty" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_BENEVOLENCE_INNER_MAJESTY">
+        <description>
+            <p>Starting at 20th level, you can use an action to manifest visibly the regal spirit you've always borne within, adopting a mantle of benevolence and brilliant radiance. You gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>You shed bright light for 15 feet and dim light 15 feet beyond that. This light is sunlight.</li>
+                <li>When you use your Divine Smite feature, you deal an extra 1d8 radiant damage to the target.</li>
+                <li>You emanate an aura of majesty in a 30-foot radius. When a hostile creature starts its turn in the aura or enters it for the first time on a turn, it must succeed on a Wisdom saving throw against your paladin spell save DC or be charmed by you until the start of its next turn or until you do anything harmful to it.</li>
+            </ul>
+            <p class="indent">Alternatively, you can cast the heroes' feast spell once without requiring a spell slot or any material components.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You gain the following benefits for 1 minute: You shed bright light for 15 feet and dim light 15 feet beyond that. This light is sunlight. When you use your Divine Smite feature, you deal an extra 1d8 radiant damage to the target. You emanate an aura of majesty in a 30-foot radius. When a hostile creature starts its turn in the aura or enters it for the first time on a turn, it must succeed on a Wisdom saving throw against your paladin spell save DC or be charmed by you until the start of its next turn or until you do anything harmful to it.
+            Alternatively, you can cast the heroes' feast spell once without requiring a spell slot or any material components.</description>
+        </sheet>
+    </element>
+    
+</elements>

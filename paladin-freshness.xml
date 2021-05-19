@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin-freshness.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-freshness.xml" />
+        </update>
+    </info>
+    
+    <element name="Oath of Freshness" type="Archetype" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FRESHNESS">
+        <supports>Sacred Oath</supports>
+        <description>
+            <p><em>'Redoing my makeup after a battle is such a hassle.' 'You wear makeup? I woke up like this.'</em></p>
+            <p style="text-align:right">Nintendo, <em>Splatoon</em></p>
+            <p>Being in style isn't just a fashion statement—it's a way of life! By taking on the Oath of Freshness, you have vowed to not only look your best, but to moreover always be your best. By so doing, you become a paragon of fun and laughter, the star of every show. With color and music as your primary tools and a good weapon to keep your rhythm, you're sure to light up the world around you and make it look as good as you feel inside. Smile for the crowd, superstar! The spotlight's on you!</p>
+            <h5>TENETS OF FRESHNESS</h5>
+            <p>Some paladins of Freshness swear before the altars of deities of music and light, while others make their vows to audiences and performance partners.</p>
+            <p class="indent"><strong><em>Stay Fresh.</em></strong> A good look is a good feeling, so always stay on top of what's new, what's cool, and make sure you are too.</p>
+            <p class="indent"><strong><em>Be Fresh.</em></strong> But a good look is nothing without a good heart, so live to the fullest! Be happy and make others happy too.</p>
+            <p class="indent"><strong><em>No Worries.</em></strong> There's more to life than troubles and cares. Remember to take time to relax and focus on what's fun.</p>
+            <p class="indent"><strong><em>No Regrets.</em></strong> Sometimes people mess up. Sometimes that's you! But mistakes are of the past, and you live for the future. Leave flaws and fights behind to make the most of now.</p>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OATH_SPELLS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_AURA_OF_FRESHNESS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_SICK_BEATS" />
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CALAMARI_INKANTATION" />
+            <h5>FRESH LOOKS</h5>
+            <p>Being fresh inside and out takes a lot of effort! As a paladin bearing the Oath of Freshness, you've likely put in considerable time to cultivate a maximally fresh look that will keep you in style all season long. The following table includes some suggestions for what clothing or tylings that look might entail, and you can also use it as inspiration to create your own fresh look.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Fresh Look</td></tr>
+                </thead>
+                <tr><td>1</td><td>White hats with big black bows are <em>so</em> in this year.</td></tr>
+                <tr><td>2</td><td>Yellow is a warm, inviting color, so you've adorned all your armor and clothing with ribbons and flowers.</td></tr>
+                <tr><td>3</td><td>Big, black, funky boots. You'll wear them through the Nine Hells and through high water.</td></tr>
+                <tr><td>4</td><td>If makeup didn't exist in this world before, you've invented it.</td></tr>
+                <tr><td>5</td><td>A polished, white crown is perfect for projecting your sense of royal confidence.</td></tr>
+                <tr><td>6</td><td>You've dyed your hair a vibrant black and keep it nice and long—all the better to style and restyle daily!</td></tr>
+            </table>
+            <div element="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OPTIONAL" />
+        </description>
+        <sheet display="false">
+            <description>Being in style isn't just a fashion statement—it's a way of life! By taking on the Oath of Freshness, you have vowed to not only look your best, but to moreover always be your best.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OATH_SPELLS" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD" level="3" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_AURA_OF_FRESHNESS" level="7" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_SICK_BEATS" level="15" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CALAMARI_INKANTATION" level="20" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OPTIONAL" level="3" />
+        </rules>
+    </element>
+
+    <element name="Oath Spells" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OATH_SPELLS">
+        <description>
+            <p>You gain oath spells at the paladin levels listed.</p>
+            <h5>Oath of Freshness Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Paladin Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>3rd</td><td>color spray, dissonant whispers</td></tr>
+                <tr><td>5th</td><td>alter self, shatter</td></tr>
+                <tr><td>9th</td><td>beacon of hope, thunder step</td></tr>
+                <tr><td>13th</td><td>charm monster, instant amphitheater</td></tr>
+                <tr><td>17th</td><td>beseech muse, dream</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_COLOR_SPRAY" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="3" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="5" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_THUNDER_STEP" level="9" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_XGTE_SPELL_CHARM_MONSTER" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_INSTANT_AMPHITHEATER" level="13" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_BUNGM_APOP_SPELL_BESEECH_MUSE" level="17" spellcasting="Paladin" prepared="true" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_DREAM" level="17" spellcasting="Paladin" prepared="true" /> 
+        </rules>
+    </element>
+
+    <element name="Channel Divinity" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD">
+        <description>
+            <p>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</p>
+            <p class="indent"><strong><em>Showstopper.</em></strong> If you perform for at least 1 minute, you can use your Channel Divinity to attempt to inspire wonder in your audience by dance, recitation, or song. At the end of the performance, choose a number of humanoids or aquatic beasts within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum 1). Each target must succeed on a Wisdom saving throw or be charmed by you. While charmed in this way, the target idolizes you, and it speaks glowingly of you to anyone who talks to it. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. A target has no hint that you tried to charm it.</p>
+            <p class="indent"><strong><em>Splat!.</em></strong> When you hit a creature with an attack, you can create an explosion of color as a bonus action, using your Channel Divinity. Each creature within 5 feet of the target must succeed on a Dexterity saving throw or be blinded until the end of its next turn. Also, surfaces within 5 feet of the original target are splattered with ink in the color of your choice and become difficult terrain for hostile creatures. The ink lasts for 1 minute, after which it dries and loses its effect.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD_SHOWSTOPPER" />
+            <grant type="Archetype Feature" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD_SPLAT" />
+        </rules>
+    </element>
+    <element name="Channel Divinity: Showstopper" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD_SHOWSTOPPER">
+        <description>
+            <p>If you perform for at least 1 minute, you can use your Channel Divinity to attempt to inspire wonder in your audience by dance, recitation, or song. At the end of the performance, choose a number of humanoids or aquatic beasts within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum 1). Each target must succeed on a Wisdom saving throw or be charmed by you. While charmed in this way, the target idolizes you, and it speaks glowingly of you to anyone who talks to it. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. A target has no hint that you tried to charm it.</p>
+        </description>
+        <sheet alt="Showstopper">
+            <description usage="Channel Divinity">If you perform for at least 1 minute, you can use your Channel Divinity to attempt to inspire wonder in your audience by dance, recitation, or song. At the end of the performance, choose a number of humanoids or aquatic beasts within 60 feet of you who watched and listened to all of it, up to {{charisma:modifier}} (minimum 1). Each target must succeed on a Wisdom saving throw or be charmed by you. While charmed in this way, the target idolizes you, and it speaks glowingly of you to anyone who talks to it. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. A target has no hint that you tried to charm it.</description>
+        </sheet>
+    </element>
+    <element name="Channel Divinity: Splat!" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CD_SPLAT">
+        <description>
+            <p>When you hit a creature with an attack, you can create an explosion of color as a bonus action, using your Channel Divinity. Each creature within 5 feet of the target must succeed on a Dexterity saving throw or be blinded until the end of its next turn. Also, surfaces within 5 feet of the original target are splattered with ink in the color of your choice and become difficult terrain for hostile creatures. The ink lasts for 1 minute, after which it dries and loses its effect.</p>
+        </description>
+        <sheet alt="Splat!">
+            <description usage="Channel Divinity" action="Bonus Action">When you hit a creature with an attack, you can create an explosion of color as a bonus action, using your Channel Divinity. Each creature within 5 feet of the target must succeed on a Dexterity saving throw or be blinded until the end of its next turn. Also, surfaces within 5 feet of the original target are splattered with ink in the color of your choice and become difficult terrain for hostile creatures. The ink lasts for 1 minute, after which it dries and loses its effect.</description>
+        </sheet>
+    </element>
+
+    <element name="Aura of Freshness" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_AURA_OF_FRESHNESS">
+        <description>
+            <p>By 7th level, your ability to boogie can't be beat. Opportunity attacks against you and friendly creatures within 10 feet of you are made at disadvantage while you are conscious.</p>
+            <p class="indent">At 18th level, the range of this aura increases to 30 feet.</p>
+        </description>
+        <sheet>
+            <description level="7">Opportunity attacks against you and friendly creatures within 10 feet of you are made at disadvantage while you are conscious.</description>
+            <description level="18">Opportunity attacks against you and friendly creatures within 30 feet of you are made at disadvantage while you are conscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Sick Beats" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_SICK_BEATS">
+        <description>
+            <p>By 15th level, you're practically made of music. You are immune to the deafened condition and have resistance against thunder damage. You also have advantage on ability checks to notice, listen to, and identify all music.</p>
+        </description>
+        <sheet>
+            <description>You are immune to the deafened condition and have resistance against thunder damage. You also have advantage on ability checks to notice, listen to, and identify all music.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+        </rules>
+    </element>
+
+    <element name="Calamari Inkantation" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_CALAMARI_INKANTATION">
+        <description>
+            <p>At 20th level, you can use an action to begin singing a truly heavenly song, reaching the hearts of all who hear. You gain the following benefits for 1 minute:</p>
+            <ul>
+                <li>A hostile creature that can hear you and starts its turn within 30 feet of you or moves to a point within 30 feet of you for the first time on a turn must immediately expend all of its remaining movement to dance without leaving its space. An affected creature can make a Wisdom saving throw against your paladin spell save DC at the end of each of its turns. If it fails the saving throw by five or more, it also has disadvantage on attack rolls until the end of its next turn. On a success, it becomes immune to this effect for 24 hours.</li>
+                <li>No effect can make you inaudible to any creature you can see unless you allow it.</li>
+                <li>You and friendly creatures within 30 feet of you are immune to the charmed condition.</li>
+            </ul>
+            <p class="indent">Once you take this action, you must finish a long rest before you can do so again.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest" action="Action">You gain the following benefits for 1 minute: A hostile creature that can hear you and starts its turn within 30 feet of you or moves to a point within 30 feet of you for the first time on a turn must immediately expend all of its remaining movement to dance without leaving its space. An affected creature can make a Wisdom saving throw against your paladin spell save DC at the end of each of its turns. If it fails the saving throw by five or more, it also has disadvantage on attack rolls until the end of its next turn. On a success, it becomes immune to this effect for 24 hours. No effect can make you inaudible to any creature you can see unless you allow it. You and friendly creatures within 30 feet of you are immune to the charmed condition.</description>
+        </sheet>
+    </element>
+
+    <element name="Optional Variant: Dancing Defense" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OPTIONAL">
+        <description>
+            <p>Some paladins that swear the Oath of Freshness might decide to eschew traditional armor, instead relying on pure charm and agile performance for protection. Interested DMs and players can choose to include the following optional feature as part of the Oath of Freshness when it's taken or as part of the paladin's progression starting from 1st level:</p>
+            <h5>Shield of Stardom</h5>
+            <p>While you are wearing no armor, your AC equals 12 + your Charisma modifier. You can use a shield and still gain this benefit.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Archetype Feature" name="Dancing Defense" supports="BunGM DANCING DEFENSE" optional="true" />
+        </rules>
+    </element>
+    <element name="Shield of Stardom" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_FRESHNESS_OPTIONAL_SHIELD_STARDOM">
+        <supports>BunGM DANCING DEFENSE</supports>
+        <description>
+            <p>While you are wearing no armor, your AC equals 12 + your Charisma modifier. You can use a shield and still gain this benefit.</p>
+        </description>
+        <sheet>
+            <description>While you are wearing no armor, your AC equals {{shield stardom:ac}}.</description>
+        </sheet>
+        <rules>
+            <stat name="shield stardom:ac" value="12" />
+            <stat name="shield stardom:ac" value="charisma:modifier" />
+            <stat name="ac:calculation" value="shield stardom:ac" bonus="calculation" equipped="[armor:none]" alt="Shield of Stardom (Paladin)" />
+        </rules>
+    </element>
+    
+</elements>
