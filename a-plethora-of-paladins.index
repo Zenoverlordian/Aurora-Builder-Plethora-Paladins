@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.1">
+			<file name="a-plethora-of-paladins.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/a-plethora-of-paladins.index" />
+		</update>
+	</info>
+	<files>
+    <file name="paladin-anarchy.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-anarchy.xml" />
+    <file name="paladin-benevolence.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-benevolence.xml" />
+    <file name="paladin-betrothal.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-betrothal.xml" />
+    <file name="paladin-detachment.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-detachment.xml" />
+    <file name="paladin-directive.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-directive.xml" />
+    <file name="paladin-enlightenment.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-enlightenment.xml" />
+    <file name="paladin-freshness.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-freshness.xml" />
+    <file name="paladin-healing.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-healing.xml" />
+    <file name="paladin-liberty.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-liberty.xml" />
+    <file name="paladin-power.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-power.xml" />
+    <file name="paladin-society.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-society.xml" />
+    <file name="paladin-strangers.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-strangers.xml" />
+    <file name="paladin-tomorrow.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-tomorrow.xml" />
+    <file name="paladin-tradition.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-tradition.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/source.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/spells.xml" />
+	</files>
+</index>
