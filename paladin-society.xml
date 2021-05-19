@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="paladin-society.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Plethora-Paladins/main/paladin-society.xml" />
         </update>
     </info>
@@ -100,7 +100,7 @@
     <element name="Channel Divinity: Blessed Settlement" type="Archetype Feature" source="A Plethora of Paladins" id="ID_BUNGM_APOP_ARCHETYPE_FEAT_SOCIETY_CD_BLESSED_SETTLEMENT">
         <description>
             <p>With your Channel Divinity, you sanctify a space against the wilderness' chaos and encroachment. As an action, you speak an incantation to bless a circular area within a 15-foot radius centered on a point you touch, the edge of which is visibly marked by a faintly glowing silver-colored line. While within the blessed space, you and friendly creatures can add extra radiant damage equal to your Charisma modifier to the damage of an attack once per turn (minimum of 1). The area is also difficult terrain for hostile creatures. This effect lasts for 1 minute.</p>
-            <p class="indent">Additionally, you are magically made aware if any hostile creature is within the radius or enters the radius. You do not automatically know where they are or how many there are. If you are sleeping at the time, you are magically awoken and may use a reaction to stand. This effect lasts for 8 hours or until you leave the blessed space.</p></p>
+            <p class="indent">Additionally, you are magically made aware if any hostile creature is within the radius or enters the radius. You do not automatically know where they are or how many there are. If you are sleeping at the time, you are magically awoken and may use a reaction to stand. This effect lasts for 8 hours or until you leave the blessed space.</p>
         </description>
         <sheet alt="Blessed Settlement">
             <description usage="Channel Divinity" action="Action">As an action, you speak an incantation to bless a circular area within a 15-foot radius centered on a point you touch, the edge of which is visibly marked by a faintly glowing silver-colored line. While within the blessed space, you and friendly creatures can add {{charisma:modifier}} extra radiant damage to the damage of an attack once per turn (minimum of 1). The area is also difficult terrain for hostile creatures. This effect lasts for 1 minute.
